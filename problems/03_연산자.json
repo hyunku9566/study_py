@@ -379,841 +379,841 @@
     },
     {
       "id": 31,
-      "title": "복합 연산 31",
-      "description": "변수 a=31, b=62일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 31\nb = 62\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (나머지) 31",
+      "description": "a %= b 연산자를 사용하여 2를 출력하시오.",
+      "default_code": "a = 17\nb = 5\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "93"
+          "output": "2"
         }
       ]
     },
     {
       "id": 32,
-      "title": "복합 연산 32",
-      "description": "변수 a=32, b=64일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 32\nb = 64\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (거듭제곱) 32",
+      "description": "a **= b 연산자를 사용하여 256를 출력하시오.",
+      "default_code": "a = 2\nb = 8\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "96"
+          "output": "256"
         }
       ]
     },
     {
       "id": 33,
-      "title": "복합 연산 33",
-      "description": "변수 a=33, b=66일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 33\nb = 66\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (크거나 같다) 33",
+      "description": ">= 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n10 >= 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "99"
+          "output": "True"
         }
       ]
     },
     {
       "id": 34,
-      "title": "복합 연산 34",
-      "description": "변수 a=34, b=68일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 34\nb = 68\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (작다) 34",
+      "description": "< 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n5 < 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "102"
+          "output": "True"
         }
       ]
     },
     {
       "id": 35,
-      "title": "복합 연산 35",
-      "description": "변수 a=35, b=70일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 35\nb = 70\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (and - 모두 True) 35",
+      "description": "and 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nTrue and True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "105"
+          "output": "True"
         }
       ]
     },
     {
       "id": 36,
-      "title": "복합 연산 36",
-      "description": "변수 a=36, b=72일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 36\nb = 72\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (or - 하나 True) 36",
+      "description": "or 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nFalse or True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "108"
+          "output": "True"
         }
       ]
     },
     {
       "id": 37,
-      "title": "복합 연산 37",
-      "description": "변수 a=37, b=74일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 37\nb = 74\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (not) 37",
+      "description": "not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nnot False\n",
       "test_cases": [
         {
           "input": "",
-          "output": "111"
+          "output": "True"
         }
       ]
     },
     {
       "id": 38,
-      "title": "복합 연산 38",
-      "description": "변수 a=38, b=76일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 38\nb = 76\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (in) 38",
+      "description": "in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'a' in 'banana'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "114"
+          "output": "True"
         }
       ]
     },
     {
       "id": 39,
-      "title": "복합 연산 39",
-      "description": "변수 a=39, b=78일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 39\nb = 78\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (not in) 39",
+      "description": "not in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'z' not in 'python'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "117"
+          "output": "True"
         }
       ]
     },
     {
       "id": 40,
-      "title": "복합 연산 40",
-      "description": "변수 a=40, b=80일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 40\nb = 80\n# 여기에 코드를 작성하세요\n",
+      "title": "식별 연산자 (is not) 40",
+      "description": "is not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "a = [1, 2]\nb = [1, 2]\na is not b",
       "test_cases": [
         {
           "input": "",
-          "output": "120"
+          "output": "True"
         }
       ]
     },
     {
       "id": 41,
-      "title": "복합 연산 41",
-      "description": "변수 a=41, b=82일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 41\nb = 82\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (나머지) 41",
+      "description": "a %= b 연산자를 사용하여 2를 출력하시오.",
+      "default_code": "a = 17\nb = 5\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "123"
+          "output": "2"
         }
       ]
     },
     {
       "id": 42,
-      "title": "복합 연산 42",
-      "description": "변수 a=42, b=84일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 42\nb = 84\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (거듭제곱) 42",
+      "description": "a **= b 연산자를 사용하여 256를 출력하시오.",
+      "default_code": "a = 2\nb = 8\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "126"
+          "output": "256"
         }
       ]
     },
     {
       "id": 43,
-      "title": "복합 연산 43",
-      "description": "변수 a=43, b=86일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 43\nb = 86\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (크거나 같다) 43",
+      "description": ">= 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n10 >= 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "129"
+          "output": "True"
         }
       ]
     },
     {
       "id": 44,
-      "title": "복합 연산 44",
-      "description": "변수 a=44, b=88일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 44\nb = 88\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (작다) 44",
+      "description": "< 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n5 < 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "132"
+          "output": "True"
         }
       ]
     },
     {
       "id": 45,
-      "title": "복합 연산 45",
-      "description": "변수 a=45, b=90일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 45\nb = 90\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (and - 모두 True) 45",
+      "description": "and 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nTrue and True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "135"
+          "output": "True"
         }
       ]
     },
     {
       "id": 46,
-      "title": "복합 연산 46",
-      "description": "변수 a=46, b=92일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 46\nb = 92\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (or - 하나 True) 46",
+      "description": "or 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nFalse or True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "138"
+          "output": "True"
         }
       ]
     },
     {
       "id": 47,
-      "title": "복합 연산 47",
-      "description": "변수 a=47, b=94일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 47\nb = 94\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (not) 47",
+      "description": "not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nnot False\n",
       "test_cases": [
         {
           "input": "",
-          "output": "141"
+          "output": "True"
         }
       ]
     },
     {
       "id": 48,
-      "title": "복합 연산 48",
-      "description": "변수 a=48, b=96일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 48\nb = 96\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (in) 48",
+      "description": "in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'a' in 'banana'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "144"
+          "output": "True"
         }
       ]
     },
     {
       "id": 49,
-      "title": "복합 연산 49",
-      "description": "변수 a=49, b=98일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 49\nb = 98\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (not in) 49",
+      "description": "not in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'z' not in 'python'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "147"
+          "output": "True"
         }
       ]
     },
     {
       "id": 50,
-      "title": "복합 연산 50",
-      "description": "변수 a=50, b=100일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 50\nb = 100\n# 여기에 코드를 작성하세요\n",
+      "title": "식별 연산자 (is not) 50",
+      "description": "is not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "a = [1, 2]\nb = [1, 2]\na is not b",
       "test_cases": [
         {
           "input": "",
-          "output": "150"
+          "output": "True"
         }
       ]
     },
     {
       "id": 51,
-      "title": "복합 연산 51",
-      "description": "변수 a=51, b=102일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 51\nb = 102\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (나머지) 51",
+      "description": "a %= b 연산자를 사용하여 2를 출력하시오.",
+      "default_code": "a = 17\nb = 5\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "153"
+          "output": "2"
         }
       ]
     },
     {
       "id": 52,
-      "title": "복합 연산 52",
-      "description": "변수 a=52, b=104일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 52\nb = 104\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (거듭제곱) 52",
+      "description": "a **= b 연산자를 사용하여 256를 출력하시오.",
+      "default_code": "a = 2\nb = 8\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "156"
+          "output": "256"
         }
       ]
     },
     {
       "id": 53,
-      "title": "복합 연산 53",
-      "description": "변수 a=53, b=106일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 53\nb = 106\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (크거나 같다) 53",
+      "description": ">= 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n10 >= 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "159"
+          "output": "True"
         }
       ]
     },
     {
       "id": 54,
-      "title": "복합 연산 54",
-      "description": "변수 a=54, b=108일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 54\nb = 108\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (작다) 54",
+      "description": "< 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n5 < 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "162"
+          "output": "True"
         }
       ]
     },
     {
       "id": 55,
-      "title": "복합 연산 55",
-      "description": "변수 a=55, b=110일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 55\nb = 110\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (and - 모두 True) 55",
+      "description": "and 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nTrue and True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "165"
+          "output": "True"
         }
       ]
     },
     {
       "id": 56,
-      "title": "복합 연산 56",
-      "description": "변수 a=56, b=112일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 56\nb = 112\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (or - 하나 True) 56",
+      "description": "or 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nFalse or True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "168"
+          "output": "True"
         }
       ]
     },
     {
       "id": 57,
-      "title": "복합 연산 57",
-      "description": "변수 a=57, b=114일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 57\nb = 114\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (not) 57",
+      "description": "not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nnot False\n",
       "test_cases": [
         {
           "input": "",
-          "output": "171"
+          "output": "True"
         }
       ]
     },
     {
       "id": 58,
-      "title": "복합 연산 58",
-      "description": "변수 a=58, b=116일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 58\nb = 116\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (in) 58",
+      "description": "in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'a' in 'banana'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "174"
+          "output": "True"
         }
       ]
     },
     {
       "id": 59,
-      "title": "복합 연산 59",
-      "description": "변수 a=59, b=118일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 59\nb = 118\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (not in) 59",
+      "description": "not in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'z' not in 'python'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "177"
+          "output": "True"
         }
       ]
     },
     {
       "id": 60,
-      "title": "복합 연산 60",
-      "description": "변수 a=60, b=120일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 60\nb = 120\n# 여기에 코드를 작성하세요\n",
+      "title": "식별 연산자 (is not) 60",
+      "description": "is not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "a = [1, 2]\nb = [1, 2]\na is not b",
       "test_cases": [
         {
           "input": "",
-          "output": "180"
+          "output": "True"
         }
       ]
     },
     {
       "id": 61,
-      "title": "복합 연산 61",
-      "description": "변수 a=61, b=122일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 61\nb = 122\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (나머지) 61",
+      "description": "a %= b 연산자를 사용하여 2를 출력하시오.",
+      "default_code": "a = 17\nb = 5\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "183"
+          "output": "2"
         }
       ]
     },
     {
       "id": 62,
-      "title": "복합 연산 62",
-      "description": "변수 a=62, b=124일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 62\nb = 124\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (거듭제곱) 62",
+      "description": "a **= b 연산자를 사용하여 256를 출력하시오.",
+      "default_code": "a = 2\nb = 8\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "186"
+          "output": "256"
         }
       ]
     },
     {
       "id": 63,
-      "title": "복합 연산 63",
-      "description": "변수 a=63, b=126일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 63\nb = 126\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (크거나 같다) 63",
+      "description": ">= 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n10 >= 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "189"
+          "output": "True"
         }
       ]
     },
     {
       "id": 64,
-      "title": "복합 연산 64",
-      "description": "변수 a=64, b=128일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 64\nb = 128\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (작다) 64",
+      "description": "< 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n5 < 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "192"
+          "output": "True"
         }
       ]
     },
     {
       "id": 65,
-      "title": "복합 연산 65",
-      "description": "변수 a=65, b=130일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 65\nb = 130\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (and - 모두 True) 65",
+      "description": "and 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nTrue and True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "195"
+          "output": "True"
         }
       ]
     },
     {
       "id": 66,
-      "title": "복합 연산 66",
-      "description": "변수 a=66, b=132일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 66\nb = 132\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (or - 하나 True) 66",
+      "description": "or 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nFalse or True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "198"
+          "output": "True"
         }
       ]
     },
     {
       "id": 67,
-      "title": "복합 연산 67",
-      "description": "변수 a=67, b=134일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 67\nb = 134\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (not) 67",
+      "description": "not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nnot False\n",
       "test_cases": [
         {
           "input": "",
-          "output": "201"
+          "output": "True"
         }
       ]
     },
     {
       "id": 68,
-      "title": "복합 연산 68",
-      "description": "변수 a=68, b=136일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 68\nb = 136\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (in) 68",
+      "description": "in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'a' in 'banana'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "204"
+          "output": "True"
         }
       ]
     },
     {
       "id": 69,
-      "title": "복합 연산 69",
-      "description": "변수 a=69, b=138일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 69\nb = 138\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (not in) 69",
+      "description": "not in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'z' not in 'python'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "207"
+          "output": "True"
         }
       ]
     },
     {
       "id": 70,
-      "title": "복합 연산 70",
-      "description": "변수 a=70, b=140일 때, a += b 연산을 수행하고 a를 출력하시오.",
-      "default_code": "a = 70\nb = 140\n# 여기에 코드를 작성하세요\n",
+      "title": "식별 연산자 (is not) 70",
+      "description": "is not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "a = [1, 2]\nb = [1, 2]\na is not b",
       "test_cases": [
         {
           "input": "",
-          "output": "210"
+          "output": "True"
         }
       ]
     },
     {
       "id": 71,
-      "title": "복잡한 수식 71",
-      "description": "변수 a=71, b=142, c=213일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 71\nb = 142\nc = 213\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (나머지) 71",
+      "description": "a %= b 연산자를 사용하여 2를 출력하시오.",
+      "default_code": "a = 17\nb = 5\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "45298"
+          "output": "2"
         }
       ]
     },
     {
       "id": 72,
-      "title": "복잡한 수식 72",
-      "description": "변수 a=72, b=144, c=216일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 72\nb = 144\nc = 216\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (거듭제곱) 72",
+      "description": "a **= b 연산자를 사용하여 256를 출력하시오.",
+      "default_code": "a = 2\nb = 8\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "46584"
+          "output": "256"
         }
       ]
     },
     {
       "id": 73,
-      "title": "복잡한 수식 73",
-      "description": "변수 a=73, b=146, c=219일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 73\nb = 146\nc = 219\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (크거나 같다) 73",
+      "description": ">= 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n10 >= 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "47888"
+          "output": "True"
         }
       ]
     },
     {
       "id": 74,
-      "title": "복잡한 수식 74",
-      "description": "변수 a=74, b=148, c=222일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 74\nb = 148\nc = 222\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (작다) 74",
+      "description": "< 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n5 < 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "49210"
+          "output": "True"
         }
       ]
     },
     {
       "id": 75,
-      "title": "복잡한 수식 75",
-      "description": "변수 a=75, b=150, c=225일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 75\nb = 150\nc = 225\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (and - 모두 True) 75",
+      "description": "and 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nTrue and True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "50550"
+          "output": "True"
         }
       ]
     },
     {
       "id": 76,
-      "title": "복잡한 수식 76",
-      "description": "변수 a=76, b=152, c=228일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 76\nb = 152\nc = 228\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (or - 하나 True) 76",
+      "description": "or 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nFalse or True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "51908"
+          "output": "True"
         }
       ]
     },
     {
       "id": 77,
-      "title": "복잡한 수식 77",
-      "description": "변수 a=77, b=154, c=231일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 77\nb = 154\nc = 231\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (not) 77",
+      "description": "not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nnot False\n",
       "test_cases": [
         {
           "input": "",
-          "output": "53284"
+          "output": "True"
         }
       ]
     },
     {
       "id": 78,
-      "title": "복잡한 수식 78",
-      "description": "변수 a=78, b=156, c=234일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 78\nb = 156\nc = 234\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (in) 78",
+      "description": "in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'a' in 'banana'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "54678"
+          "output": "True"
         }
       ]
     },
     {
       "id": 79,
-      "title": "복잡한 수식 79",
-      "description": "변수 a=79, b=158, c=237일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 79\nb = 158\nc = 237\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (not in) 79",
+      "description": "not in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'z' not in 'python'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "56090"
+          "output": "True"
         }
       ]
     },
     {
       "id": 80,
-      "title": "복잡한 수식 80",
-      "description": "변수 a=80, b=160, c=240일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 80\nb = 160\nc = 240\n# 여기에 코드를 작성하세요\n",
+      "title": "식별 연산자 (is not) 80",
+      "description": "is not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "a = [1, 2]\nb = [1, 2]\na is not b",
       "test_cases": [
         {
           "input": "",
-          "output": "57520"
+          "output": "True"
         }
       ]
     },
     {
       "id": 81,
-      "title": "복잡한 수식 81",
-      "description": "변수 a=81, b=162, c=243일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 81\nb = 162\nc = 243\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (나머지) 81",
+      "description": "a %= b 연산자를 사용하여 2를 출력하시오.",
+      "default_code": "a = 17\nb = 5\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "58968"
+          "output": "2"
         }
       ]
     },
     {
       "id": 82,
-      "title": "복잡한 수식 82",
-      "description": "변수 a=82, b=164, c=246일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 82\nb = 164\nc = 246\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (거듭제곱) 82",
+      "description": "a **= b 연산자를 사용하여 256를 출력하시오.",
+      "default_code": "a = 2\nb = 8\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "60434"
+          "output": "256"
         }
       ]
     },
     {
       "id": 83,
-      "title": "복잡한 수식 83",
-      "description": "변수 a=83, b=166, c=249일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 83\nb = 166\nc = 249\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (크거나 같다) 83",
+      "description": ">= 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n10 >= 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "61918"
+          "output": "True"
         }
       ]
     },
     {
       "id": 84,
-      "title": "복잡한 수식 84",
-      "description": "변수 a=84, b=168, c=252일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 84\nb = 168\nc = 252\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (작다) 84",
+      "description": "< 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n5 < 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "63420"
+          "output": "True"
         }
       ]
     },
     {
       "id": 85,
-      "title": "복잡한 수식 85",
-      "description": "변수 a=85, b=170, c=255일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 85\nb = 170\nc = 255\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (and - 모두 True) 85",
+      "description": "and 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nTrue and True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "64940"
+          "output": "True"
         }
       ]
     },
     {
       "id": 86,
-      "title": "복잡한 수식 86",
-      "description": "변수 a=86, b=172, c=258일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 86\nb = 172\nc = 258\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (or - 하나 True) 86",
+      "description": "or 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nFalse or True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "66478"
+          "output": "True"
         }
       ]
     },
     {
       "id": 87,
-      "title": "복잡한 수식 87",
-      "description": "변수 a=87, b=174, c=261일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 87\nb = 174\nc = 261\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (not) 87",
+      "description": "not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nnot False\n",
       "test_cases": [
         {
           "input": "",
-          "output": "68034"
+          "output": "True"
         }
       ]
     },
     {
       "id": 88,
-      "title": "복잡한 수식 88",
-      "description": "변수 a=88, b=176, c=264일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 88\nb = 176\nc = 264\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (in) 88",
+      "description": "in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'a' in 'banana'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "69608"
+          "output": "True"
         }
       ]
     },
     {
       "id": 89,
-      "title": "복잡한 수식 89",
-      "description": "변수 a=89, b=178, c=267일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 89\nb = 178\nc = 267\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (not in) 89",
+      "description": "not in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'z' not in 'python'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "71200"
+          "output": "True"
         }
       ]
     },
     {
       "id": 90,
-      "title": "복잡한 수식 90",
-      "description": "변수 a=90, b=180, c=270일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 90\nb = 180\nc = 270\n# 여기에 코드를 작성하세요\n",
+      "title": "식별 연산자 (is not) 90",
+      "description": "is not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "a = [1, 2]\nb = [1, 2]\na is not b",
       "test_cases": [
         {
           "input": "",
-          "output": "72810"
+          "output": "True"
         }
       ]
     },
     {
       "id": 91,
-      "title": "복잡한 수식 91",
-      "description": "변수 a=91, b=182, c=273일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 91\nb = 182\nc = 273\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (나머지) 91",
+      "description": "a %= b 연산자를 사용하여 2를 출력하시오.",
+      "default_code": "a = 17\nb = 5\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "74438"
+          "output": "2"
         }
       ]
     },
     {
       "id": 92,
-      "title": "복잡한 수식 92",
-      "description": "변수 a=92, b=184, c=276일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 92\nb = 184\nc = 276\n# 여기에 코드를 작성하세요\n",
+      "title": "복합 대입 (거듭제곱) 92",
+      "description": "a **= b 연산자를 사용하여 256를 출력하시오.",
+      "default_code": "a = 2\nb = 8\n# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "76084"
+          "output": "256"
         }
       ]
     },
     {
       "id": 93,
-      "title": "복잡한 수식 93",
-      "description": "변수 a=93, b=186, c=279일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 93\nb = 186\nc = 279\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (크거나 같다) 93",
+      "description": ">= 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n10 >= 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "77748"
+          "output": "True"
         }
       ]
     },
     {
       "id": 94,
-      "title": "복잡한 수식 94",
-      "description": "변수 a=94, b=188, c=282일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 94\nb = 188\nc = 282\n# 여기에 코드를 작성하세요\n",
+      "title": "비교 연산 (작다) 94",
+      "description": "< 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n5 < 10\n",
       "test_cases": [
         {
           "input": "",
-          "output": "79430"
+          "output": "True"
         }
       ]
     },
     {
       "id": 95,
-      "title": "복잡한 수식 95",
-      "description": "변수 a=95, b=190, c=285일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 95\nb = 190\nc = 285\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (and - 모두 True) 95",
+      "description": "and 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nTrue and True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "81130"
+          "output": "True"
         }
       ]
     },
     {
       "id": 96,
-      "title": "복잡한 수식 96",
-      "description": "변수 a=96, b=192, c=288일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 96\nb = 192\nc = 288\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (or - 하나 True) 96",
+      "description": "or 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nFalse or True\n",
       "test_cases": [
         {
           "input": "",
-          "output": "82848"
+          "output": "True"
         }
       ]
     },
     {
       "id": 97,
-      "title": "복잡한 수식 97",
-      "description": "변수 a=97, b=194, c=291일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 97\nb = 194\nc = 291\n# 여기에 코드를 작성하세요\n",
+      "title": "논리 연산 (not) 97",
+      "description": "not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\nnot False\n",
       "test_cases": [
         {
           "input": "",
-          "output": "84584"
+          "output": "True"
         }
       ]
     },
     {
       "id": 98,
-      "title": "복잡한 수식 98",
-      "description": "변수 a=98, b=196, c=294일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 98\nb = 196\nc = 294\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (in) 98",
+      "description": "in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'a' in 'banana'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "86338"
+          "output": "True"
         }
       ]
     },
     {
       "id": 99,
-      "title": "복잡한 수식 99",
-      "description": "변수 a=99, b=198, c=297일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 99\nb = 198\nc = 297\n# 여기에 코드를 작성하세요\n",
+      "title": "멤버 연산자 (not in) 99",
+      "description": "not in 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n'z' not in 'python'\n",
       "test_cases": [
         {
           "input": "",
-          "output": "88110"
+          "output": "True"
         }
       ]
     },
     {
       "id": 100,
-      "title": "복잡한 수식 100",
-      "description": "변수 a=100, b=200, c=300일 때, (a + b) * c - a를 계산하여 출력하시오.",
-      "default_code": "a = 100\nb = 200\nc = 300\n# 여기에 코드를 작성하세요\n",
+      "title": "식별 연산자 (is not) 100",
+      "description": "is not 연산자를 사용하여 True를 출력하시오.",
+      "default_code": "a = [1, 2]\nb = [1, 2]\na is not b",
       "test_cases": [
         {
           "input": "",
-          "output": "89900"
+          "output": "True"
         }
       ]
     }

@@ -220,12 +220,12 @@
     {
       "id": 19,
       "title": "여러 줄 출력",
-      "description": "다음과 같이 출력하시오:\n\nLine 19\nLine 20",
+      "description": "다음과 같이 출력하시오:\n\nLine 1\nLine 2",
       "default_code": "# 여기에 코드를 작성하세요\n",
       "test_cases": [
         {
           "input": "",
-          "output": "Output 19"
+          "output": "Line 1\nLine 2"
         }
       ]
     },
@@ -333,7 +333,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Output 28"
+          "output": "280"
         }
       ]
     },
@@ -381,7 +381,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Part32"
+          "output": "Part32Part33"
         }
       ]
     },
@@ -393,7 +393,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Part33"
+          "output": "Part33Part34"
         }
       ]
     },
@@ -405,7 +405,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Part34"
+          "output": "Part34Part35"
         }
       ]
     },
@@ -477,7 +477,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "40:80:120"
         }
       ]
     },
@@ -513,7 +513,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "43:86:129"
         }
       ]
     },
@@ -537,7 +537,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "45:90:135"
         }
       ]
     },
@@ -573,7 +573,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "48:96:144"
         }
       ]
     },
@@ -597,7 +597,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "50:100:150"
         }
       ]
     },
@@ -705,7 +705,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "59:118:177"
         }
       ]
     },
@@ -729,7 +729,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "61:122:183"
         }
       ]
     },
@@ -765,7 +765,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "64:128:192"
         }
       ]
     },
@@ -777,7 +777,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "65:130:195"
         }
       ]
     },
@@ -789,7 +789,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "66:132:198"
         }
       ]
     },
@@ -813,7 +813,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": ":"
+          "output": "68:136:204"
         }
       ]
     },
@@ -873,7 +873,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Item73"
+          "output": "          Item73"
         }
       ]
     },
@@ -897,7 +897,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User75"
+          "output": "User75의 점수는 787.5점이며, 등급은 A입니다."
         }
       ]
     },
@@ -933,7 +933,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User78"
+          "output": "User78의 점수는 819.0점이며, 등급은 A입니다."
         }
       ]
     },
@@ -969,7 +969,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User81"
+          "output": "User81의 점수는 850.5점이며, 등급은 A입니다."
         }
       ]
     },
@@ -981,7 +981,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User82"
+          "output": "User82의 점수는 861.0점이며, 등급은 A입니다."
         }
       ]
     },
@@ -993,7 +993,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User83"
+          "output": "User83의 점수는 871.5점이며, 등급은 A입니다."
         }
       ]
     },
@@ -1005,7 +1005,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User84"
+          "output": "User84의 점수는 882.0점이며, 등급은 A입니다."
         }
       ]
     },
@@ -1029,7 +1029,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User86"
+          "output": "User86의 점수는 903.0점이며, 등급은 A입니다."
         }
       ]
     },
@@ -1053,7 +1053,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User88"
+          "output": "User88의 점수는 924.0점이며, 등급은 A입니다."
         }
       ]
     },
@@ -1113,7 +1113,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User93"
+          "output": "User93의 점수는 976.5점이며, 등급은 A입니다."
         }
       ]
     },
@@ -1137,7 +1137,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Item95"
+          "output": "          Item95"
         }
       ]
     },
@@ -1149,7 +1149,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Item96"
+          "output": "          Item96"
         }
       ]
     },
@@ -1161,7 +1161,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "Item97"
+          "output": "          Item97"
         }
       ]
     },
@@ -1173,7 +1173,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User98"
+          "output": "User98의 점수는 1029.0점이며, 등급은 A입니다."
         }
       ]
     },
@@ -1197,7 +1197,7 @@
       "test_cases": [
         {
           "input": "",
-          "output": "User100"
+          "output": "User100의 점수는 1050.0점이며, 등급은 A입니다."
         }
       ]
     }
