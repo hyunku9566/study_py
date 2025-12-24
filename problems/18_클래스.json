@@ -1,0 +1,1205 @@
+{
+  "chapter_name": "클래스",
+  "problems": [
+    {
+      "id": 1,
+      "title": "클래스 정의 기본",
+      "description": "Person 클래스를 정의하고, 인스턴스를 생성하여 'Person created'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Person created"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "생성자 (__init__)",
+      "description": "Person 클래스를 정의하고, 생성자에서 name을 받아 저장한 뒤, 인스턴스를 생성하고 이름을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Alice"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "메서드 정의",
+      "description": "Person 클래스에 introduce() 메서드를 정의하고, 'My name is Alice'를 출력하도록 하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Alice"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "인스턴스 변수",
+      "description": "Student 클래스를 정의하고, name과 age를 저장한 뒤, 인스턴스를 생성하고 두 값을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Alice\n20"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "메서드 호출",
+      "description": "Calculator 클래스를 정의하고, add(a, b) 메서드를 만들어 두 수의 합을 반환하도록 하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "8"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "입력받은 값으로 클래스 생성",
+      "description": "Person 클래스를 정의하고, 이름을 입력받아 인스턴스를 생성하고 이름을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Bob",
+          "output": "Bob"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "클래스 변수",
+      "description": "Counter 클래스를 정의하고, 클래스 변수 count를 사용하여 인스턴스 개수를 세시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "메서드 오버라이딩",
+      "description": "Animal 클래스를 정의하고, speak() 메서드를 만들고, Dog 클래스에서 speak()를 오버라이딩하여 'Woof'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Woof"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "입력받은 값으로 메서드 호출",
+      "description": "Calculator 클래스를 정의하고, 두 정수를 입력받아(줄바꿈) multiply() 메서드를 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5\n3",
+          "output": "15"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "상속 기본",
+      "description": "Vehicle 클래스를 정의하고, Car 클래스가 Vehicle을 상속받도록 하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Vehicle\nCar"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "__str__ 메서드",
+      "description": "Person 클래스를 정의하고, __str__ 메서드를 오버라이딩하여 'Person: Alice'를 반환하도록 하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Person: Alice"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "입력받은 값으로 클래스 생성 (여러 속성)",
+      "description": "Student 클래스를 정의하고, 이름과 나이를 입력받아(줄바꿈) 인스턴스를 생성하고 정보를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Bob\n25",
+          "output": "Bob\n25"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "메서드 체이닝",
+      "description": "Calculator 클래스를 정의하고, 메서드 체이닝이 가능하도록 add()와 multiply() 메서드를 만들고 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "24"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "입력받은 값으로 상속 클래스 생성",
+      "description": "Animal 클래스와 Dog 클래스를 정의하고, 이름을 입력받아 Dog 인스턴스를 생성하고 speak()를 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Buddy",
+          "output": "Buddy says Woof"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "프로퍼티",
+      "description": "Circle 클래스를 정의하고, radius를 프로퍼티로 만들어 설정하고 반지름을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "입력받은 값으로 클래스 메서드 호출",
+      "description": "Math 클래스를 정의하고, 정수를 입력받아 factorial() 메서드를 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5",
+          "output": "120"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "종합 문제",
+      "description": "BankAccount 클래스를 정의하고, 잔액을 관리하는 deposit()과 withdraw() 메서드를 만들고, 초기 잔액 1000원에 500원을 입금한 뒤 잔액을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1500"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "클래스 문제 18",
+      "description": "클래스 단원의 18번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "클래스 문제 19",
+      "description": "클래스 단원의 19번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "클래스 문제 20",
+      "description": "클래스 단원의 20번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "클래스 문제 21",
+      "description": "클래스 단원의 21번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "클래스 문제 22",
+      "description": "클래스 단원의 22번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "클래스 문제 23",
+      "description": "클래스 단원의 23번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "클래스 문제 24",
+      "description": "클래스 단원의 24번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "클래스 문제 25",
+      "description": "클래스 단원의 25번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "클래스 문제 26",
+      "description": "클래스 단원의 26번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "클래스 문제 27",
+      "description": "클래스 단원의 27번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "클래스 문제 28",
+      "description": "클래스 단원의 28번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "클래스 문제 29",
+      "description": "클래스 단원의 29번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "클래스 문제 30",
+      "description": "클래스 단원의 30번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "클래스 문제 31",
+      "description": "클래스 단원의 31번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "클래스 문제 32",
+      "description": "클래스 단원의 32번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "클래스 문제 33",
+      "description": "클래스 단원의 33번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "클래스 문제 34",
+      "description": "클래스 단원의 34번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "클래스 문제 35",
+      "description": "클래스 단원의 35번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "클래스 문제 36",
+      "description": "클래스 단원의 36번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "클래스 문제 37",
+      "description": "클래스 단원의 37번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "클래스 문제 38",
+      "description": "클래스 단원의 38번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "클래스 문제 39",
+      "description": "클래스 단원의 39번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "클래스 문제 40",
+      "description": "클래스 단원의 40번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "클래스 문제 41",
+      "description": "클래스 단원의 41번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "클래스 문제 42",
+      "description": "클래스 단원의 42번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "클래스 문제 43",
+      "description": "클래스 단원의 43번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "클래스 문제 44",
+      "description": "클래스 단원의 44번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "클래스 문제 45",
+      "description": "클래스 단원의 45번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "클래스 문제 46",
+      "description": "클래스 단원의 46번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "클래스 문제 47",
+      "description": "클래스 단원의 47번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "클래스 문제 48",
+      "description": "클래스 단원의 48번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "클래스 문제 49",
+      "description": "클래스 단원의 49번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "클래스 문제 50",
+      "description": "클래스 단원의 50번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "클래스 문제 51",
+      "description": "클래스 단원의 51번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "클래스 문제 52",
+      "description": "클래스 단원의 52번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "클래스 문제 53",
+      "description": "클래스 단원의 53번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "클래스 문제 54",
+      "description": "클래스 단원의 54번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "클래스 문제 55",
+      "description": "클래스 단원의 55번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "클래스 문제 56",
+      "description": "클래스 단원의 56번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "클래스 문제 57",
+      "description": "클래스 단원의 57번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "클래스 문제 58",
+      "description": "클래스 단원의 58번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "클래스 문제 59",
+      "description": "클래스 단원의 59번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "클래스 문제 60",
+      "description": "클래스 단원의 60번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "클래스 문제 61",
+      "description": "클래스 단원의 61번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "클래스 문제 62",
+      "description": "클래스 단원의 62번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "클래스 문제 63",
+      "description": "클래스 단원의 63번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "클래스 문제 64",
+      "description": "클래스 단원의 64번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "클래스 문제 65",
+      "description": "클래스 단원의 65번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "클래스 문제 66",
+      "description": "클래스 단원의 66번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "클래스 문제 67",
+      "description": "클래스 단원의 67번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "클래스 문제 68",
+      "description": "클래스 단원의 68번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "클래스 문제 69",
+      "description": "클래스 단원의 69번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "클래스 문제 70",
+      "description": "클래스 단원의 70번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "클래스 문제 71",
+      "description": "클래스 단원의 71번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "클래스 문제 72",
+      "description": "클래스 단원의 72번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "클래스 문제 73",
+      "description": "클래스 단원의 73번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "클래스 문제 74",
+      "description": "클래스 단원의 74번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "클래스 문제 75",
+      "description": "클래스 단원의 75번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "클래스 문제 76",
+      "description": "클래스 단원의 76번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "클래스 문제 77",
+      "description": "클래스 단원의 77번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "클래스 문제 78",
+      "description": "클래스 단원의 78번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "클래스 문제 79",
+      "description": "클래스 단원의 79번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "클래스 문제 80",
+      "description": "클래스 단원의 80번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "클래스 문제 81",
+      "description": "클래스 단원의 81번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "클래스 문제 82",
+      "description": "클래스 단원의 82번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "클래스 문제 83",
+      "description": "클래스 단원의 83번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "클래스 문제 84",
+      "description": "클래스 단원의 84번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "클래스 문제 85",
+      "description": "클래스 단원의 85번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "클래스 문제 86",
+      "description": "클래스 단원의 86번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "클래스 문제 87",
+      "description": "클래스 단원의 87번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "클래스 문제 88",
+      "description": "클래스 단원의 88번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "클래스 문제 89",
+      "description": "클래스 단원의 89번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "클래스 문제 90",
+      "description": "클래스 단원의 90번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "클래스 문제 91",
+      "description": "클래스 단원의 91번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "클래스 문제 92",
+      "description": "클래스 단원의 92번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "클래스 문제 93",
+      "description": "클래스 단원의 93번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "클래스 문제 94",
+      "description": "클래스 단원의 94번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "클래스 문제 95",
+      "description": "클래스 단원의 95번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "클래스 문제 96",
+      "description": "클래스 단원의 96번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "클래스 문제 97",
+      "description": "클래스 단원의 97번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "클래스 문제 98",
+      "description": "클래스 단원의 98번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "클래스 문제 99",
+      "description": "클래스 단원의 99번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "클래스 문제 100",
+      "description": "클래스 단원의 100번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    }
+  ]
+}

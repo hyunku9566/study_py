@@ -1,0 +1,1205 @@
+{
+  "chapter_name": "리스트 2",
+  "problems": [
+    {
+      "id": 1,
+      "title": "리스트 컴프리헨션 기본",
+      "description": "리스트 컴프리헨션을 사용하여 [1, 2, 3, 4, 5]를 생성하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[1, 2, 3, 4, 5]"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "리스트 컴프리헨션 (제곱)",
+      "description": "리스트 컴프리헨션을 사용하여 [1, 4, 9, 16, 25]를 생성하시오. (1~5의 제곱)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[1, 4, 9, 16, 25]"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "리스트 컴프리헨션 (조건)",
+      "description": "리스트 컴프리헨션을 사용하여 1부터 10까지의 짝수만 포함한 리스트를 생성하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[2, 4, 6, 8, 10]"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "리스트 정렬",
+      "description": "리스트 [3, 1, 4, 1, 5]를 오름차순으로 정렬하시오.",
+      "default_code": "lst = [3, 1, 4, 1, 5]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[1, 1, 3, 4, 5]"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "리스트 역순 정렬",
+      "description": "리스트 [1, 2, 3, 4, 5]를 내림차순으로 정렬하시오.",
+      "default_code": "lst = [1, 2, 3, 4, 5]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[5, 4, 3, 2, 1]"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "리스트 최댓값/최솟값",
+      "description": "리스트 [5, 2, 8, 1, 9]에서 최댓값과 최솟값을 각각 출력하시오.",
+      "default_code": "lst = [5, 2, 8, 1, 9]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "9\n1"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "리스트 합계/평균",
+      "description": "리스트 [10, 20, 30, 40, 50]의 합계와 평균을 각각 출력하시오.",
+      "default_code": "lst = [10, 20, 30, 40, 50]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "150\n30.0"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "리스트 중복 제거",
+      "description": "리스트 [1, 2, 2, 3, 3, 3, 4]에서 중복을 제거하시오.",
+      "default_code": "lst = [1, 2, 2, 3, 3, 3, 4]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[1, 2, 3, 4]"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "리스트 슬라이싱",
+      "description": "리스트 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]에서 인덱스 2부터 7까지 슬라이싱하시오.",
+      "default_code": "lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[2, 3, 4, 5, 6, 7]"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "리스트 복사",
+      "description": "리스트 [1, 2, 3]을 복사하여 새로운 리스트를 만들고, 원본을 수정한 후 두 리스트를 출력하시오.",
+      "default_code": "original = [1, 2, 3]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[1, 2, 3, 4]\n[1, 2, 3]"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "리스트 컴프리헨션 (문자열)",
+      "description": "리스트 ['apple', 'banana', 'cherry']의 각 문자열의 길이를 리스트로 출력하시오.",
+      "default_code": "fruits = ['apple', 'banana', 'cherry']\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[5, 6, 6]"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "리스트 필터링",
+      "description": "리스트 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]에서 5보다 큰 수만 필터링하여 출력하시오.",
+      "default_code": "lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[6, 7, 8, 9, 10]"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "입력받은 리스트 처리",
+      "description": "정수 5개를 입력받아(줄바꿈) 리스트로 만들고, 그 합을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "1\n2\n3\n4\n5",
+          "output": "15"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "리스트 역순",
+      "description": "리스트 [1, 2, 3, 4, 5]를 역순으로 뒤집으시오.",
+      "default_code": "lst = [1, 2, 3, 4, 5]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[5, 4, 3, 2, 1]"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "리스트 요소 개수",
+      "description": "리스트 [1, 2, 2, 3, 3, 3]에서 3의 개수를 세어 출력하시오.",
+      "default_code": "lst = [1, 2, 2, 3, 3, 3]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "3"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "리스트 컴프리헨션 (조건부)",
+      "description": "리스트 컴프리헨션을 사용하여 1부터 20까지의 수 중 3의 배수만 포함한 리스트를 생성하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[3, 6, 9, 12, 15, 18]"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "리스트 확장",
+      "description": "리스트 [1, 2, 3]에 [4, 5]를 extend하여 확장하시오.",
+      "default_code": "lst = [1, 2, 3]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[1, 2, 3, 4, 5]"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "리스트 정렬 (키 함수)",
+      "description": "리스트 [('apple', 5), ('banana', 3), ('cherry', 7)]를 두 번째 요소 기준으로 정렬하시오.",
+      "default_code": "lst = [('apple', 5), ('banana', 3), ('cherry', 7)]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[('banana', 3), ('apple', 5), ('cherry', 7)]"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "입력받은 리스트 최댓값",
+      "description": "정수 5개를 입력받아(줄바꿈) 리스트로 만들고, 최댓값을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5\n2\n8\n1\n9",
+          "output": "9"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "리스트 슬라이싱 (역순)",
+      "description": "리스트 [0, 1, 2, 3, 4, 5]에서 마지막 3개 요소를 슬라이싱하시오.",
+      "default_code": "lst = [0, 1, 2, 3, 4, 5]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[3, 4, 5]"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "리스트 컴프리헨션 (문자열 처리)",
+      "description": "리스트 ['hello', 'world', 'python']의 각 문자열을 대문자로 변환한 리스트를 생성하시오.",
+      "default_code": "words = ['hello', 'world', 'python']\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "['HELLO', 'WORLD', 'PYTHON']"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "리스트 중간값",
+      "description": "리스트 [1, 3, 5, 7, 9]의 중간값을 출력하시오.",
+      "default_code": "lst = [1, 3, 5, 7, 9]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "입력받은 리스트 정렬",
+      "description": "정수 5개를 입력받아(줄바꿈) 리스트로 만들고, 오름차순으로 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5\n2\n8\n1\n3",
+          "output": "[1, 2, 3, 5, 8]"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "리스트 컴프리헨션 (중첩)",
+      "description": "리스트 컴프리헨션을 사용하여 [(1, 1), (1, 2), (2, 1), (2, 2)]를 생성하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[(1, 1), (1, 2), (2, 1), (2, 2)]"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "리스트 요소 교환",
+      "description": "리스트 [1, 2, 3, 4, 5]에서 첫 번째와 마지막 요소를 교환하시오.",
+      "default_code": "lst = [1, 2, 3, 4, 5]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "[5, 2, 3, 4, 1]"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "종합 문제",
+      "description": "정수 10개를 입력받아(줄바꿈) 리스트로 만들고, 짝수만 필터링하여 오름차순으로 정렬한 뒤 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5\n2\n8\n1\n9\n4\n7\n6\n3\n10",
+          "output": "[2, 4, 6, 8, 10]"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "리스트 2 문제 27",
+      "description": "리스트 2 단원의 27번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "리스트 2 문제 28",
+      "description": "리스트 2 단원의 28번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "리스트 2 문제 29",
+      "description": "리스트 2 단원의 29번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "리스트 2 문제 30",
+      "description": "리스트 2 단원의 30번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "리스트 2 문제 31",
+      "description": "리스트 2 단원의 31번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "리스트 2 문제 32",
+      "description": "리스트 2 단원의 32번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "리스트 2 문제 33",
+      "description": "리스트 2 단원의 33번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "리스트 2 문제 34",
+      "description": "리스트 2 단원의 34번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "리스트 2 문제 35",
+      "description": "리스트 2 단원의 35번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "리스트 2 문제 36",
+      "description": "리스트 2 단원의 36번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "리스트 2 문제 37",
+      "description": "리스트 2 단원의 37번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "리스트 2 문제 38",
+      "description": "리스트 2 단원의 38번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "리스트 2 문제 39",
+      "description": "리스트 2 단원의 39번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "리스트 2 문제 40",
+      "description": "리스트 2 단원의 40번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "리스트 2 문제 41",
+      "description": "리스트 2 단원의 41번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "리스트 2 문제 42",
+      "description": "리스트 2 단원의 42번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "리스트 2 문제 43",
+      "description": "리스트 2 단원의 43번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "리스트 2 문제 44",
+      "description": "리스트 2 단원의 44번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "리스트 2 문제 45",
+      "description": "리스트 2 단원의 45번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "리스트 2 문제 46",
+      "description": "리스트 2 단원의 46번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "리스트 2 문제 47",
+      "description": "리스트 2 단원의 47번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "리스트 2 문제 48",
+      "description": "리스트 2 단원의 48번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "리스트 2 문제 49",
+      "description": "리스트 2 단원의 49번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "리스트 2 문제 50",
+      "description": "리스트 2 단원의 50번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "리스트 2 문제 51",
+      "description": "리스트 2 단원의 51번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "리스트 2 문제 52",
+      "description": "리스트 2 단원의 52번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "리스트 2 문제 53",
+      "description": "리스트 2 단원의 53번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "리스트 2 문제 54",
+      "description": "리스트 2 단원의 54번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "리스트 2 문제 55",
+      "description": "리스트 2 단원의 55번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "리스트 2 문제 56",
+      "description": "리스트 2 단원의 56번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "리스트 2 문제 57",
+      "description": "리스트 2 단원의 57번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "리스트 2 문제 58",
+      "description": "리스트 2 단원의 58번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "리스트 2 문제 59",
+      "description": "리스트 2 단원의 59번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "리스트 2 문제 60",
+      "description": "리스트 2 단원의 60번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "리스트 2 문제 61",
+      "description": "리스트 2 단원의 61번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "리스트 2 문제 62",
+      "description": "리스트 2 단원의 62번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "리스트 2 문제 63",
+      "description": "리스트 2 단원의 63번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "리스트 2 문제 64",
+      "description": "리스트 2 단원의 64번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "리스트 2 문제 65",
+      "description": "리스트 2 단원의 65번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "리스트 2 문제 66",
+      "description": "리스트 2 단원의 66번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "리스트 2 문제 67",
+      "description": "리스트 2 단원의 67번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "리스트 2 문제 68",
+      "description": "리스트 2 단원의 68번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "리스트 2 문제 69",
+      "description": "리스트 2 단원의 69번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "리스트 2 문제 70",
+      "description": "리스트 2 단원의 70번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "리스트 2 문제 71",
+      "description": "리스트 2 단원의 71번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "리스트 2 문제 72",
+      "description": "리스트 2 단원의 72번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "리스트 2 문제 73",
+      "description": "리스트 2 단원의 73번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "리스트 2 문제 74",
+      "description": "리스트 2 단원의 74번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "리스트 2 문제 75",
+      "description": "리스트 2 단원의 75번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "리스트 2 문제 76",
+      "description": "리스트 2 단원의 76번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "리스트 2 문제 77",
+      "description": "리스트 2 단원의 77번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "리스트 2 문제 78",
+      "description": "리스트 2 단원의 78번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "리스트 2 문제 79",
+      "description": "리스트 2 단원의 79번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "리스트 2 문제 80",
+      "description": "리스트 2 단원의 80번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "리스트 2 문제 81",
+      "description": "리스트 2 단원의 81번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "리스트 2 문제 82",
+      "description": "리스트 2 단원의 82번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "리스트 2 문제 83",
+      "description": "리스트 2 단원의 83번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "리스트 2 문제 84",
+      "description": "리스트 2 단원의 84번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "리스트 2 문제 85",
+      "description": "리스트 2 단원의 85번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "리스트 2 문제 86",
+      "description": "리스트 2 단원의 86번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "리스트 2 문제 87",
+      "description": "리스트 2 단원의 87번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "리스트 2 문제 88",
+      "description": "리스트 2 단원의 88번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "리스트 2 문제 89",
+      "description": "리스트 2 단원의 89번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "리스트 2 문제 90",
+      "description": "리스트 2 단원의 90번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "리스트 2 문제 91",
+      "description": "리스트 2 단원의 91번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "리스트 2 문제 92",
+      "description": "리스트 2 단원의 92번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "리스트 2 문제 93",
+      "description": "리스트 2 단원의 93번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "리스트 2 문제 94",
+      "description": "리스트 2 단원의 94번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "리스트 2 문제 95",
+      "description": "리스트 2 단원의 95번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "리스트 2 문제 96",
+      "description": "리스트 2 단원의 96번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "리스트 2 문제 97",
+      "description": "리스트 2 단원의 97번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "리스트 2 문제 98",
+      "description": "리스트 2 단원의 98번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "리스트 2 문제 99",
+      "description": "리스트 2 단원의 99번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "리스트 2 문제 100",
+      "description": "리스트 2 단원의 100번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    }
+  ]
+}

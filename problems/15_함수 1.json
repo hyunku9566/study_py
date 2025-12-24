@@ -1,0 +1,1213 @@
+{
+  "chapter_name": "함수 1",
+  "problems": [
+    {
+      "id": 1,
+      "title": "함수 정의 기본",
+      "description": "인사말을 출력하는 함수 greet()를 정의하고 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Hello!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "매개변수가 있는 함수",
+      "description": "이름을 매개변수로 받아 인사하는 함수 say_hello(name)를 정의하고 'Alice'를 전달하여 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Hello, Alice!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "반환값이 있는 함수",
+      "description": "두 수를 받아 합을 반환하는 함수 add(a, b)를 정의하고 add(5, 3)을 호출하여 결과를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "8"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "함수 호출",
+      "description": "숫자를 제곱하는 함수 square(n)을 정의하고 square(5)를 호출하여 결과를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "25"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "여러 매개변수",
+      "description": "세 수를 받아 곱을 반환하는 함수 multiply(a, b, c)를 정의하고 multiply(2, 3, 4)를 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "24"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "기본값 매개변수",
+      "description": "인사 함수 greet(name='Guest')를 정의하고, 인자 없이 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Hello, Guest!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "문자열 반환",
+      "description": "이름과 나이를 받아 자기소개 문자열을 반환하는 함수 introduce(name, age)를 정의하고 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "I'm Alice, 25 years old."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "입력받은 값으로 함수 호출",
+      "description": "정수를 입력받아, 그 수를 제곱하는 함수 square(n)을 정의하고 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5",
+          "output": "25"
+        },
+        {
+          "input": "7",
+          "output": "49"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "최댓값 함수",
+      "description": "두 수를 받아 최댓값을 반환하는 함수 max_value(a, b)를 정의하고 max_value(10, 20)를 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "20"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "짝수 판별 함수",
+      "description": "정수를 받아 짝수이면 True, 홀수이면 False를 반환하는 함수 is_even(n)을 정의하고 is_even(8)을 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "문자열 길이 함수",
+      "description": "문자열을 받아 길이를 반환하는 함수 get_length(s)를 정의하고 get_length('Python')을 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "6"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "입력받은 값으로 함수 호출 (2개)",
+      "description": "두 정수를 입력받아(줄바꿈), 합을 반환하는 함수 add(a, b)를 정의하고 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "10\n20",
+          "output": "30"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "평균 함수",
+      "description": "세 수를 받아 평균을 반환하는 함수 average(a, b, c)를 정의하고 average(10, 20, 30)을 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "20.0"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "문자열 대문자 변환 함수",
+      "description": "문자열을 받아 대문자로 변환하는 함수 to_upper(s)를 정의하고 to_upper('hello')를 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "HELLO"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "범위 체크 함수",
+      "description": "정수 n, min, max를 받아 n이 min과 max 사이에 있으면 True, 아니면 False를 반환하는 함수 in_range(n, min, max)를 정의하고 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "입력받은 값으로 함수 호출 (문자열)",
+      "description": "문자열을 입력받아, 그 문자열을 반복 출력하는 함수 repeat(s, n)을 정의하고 repeat(s, 3)을 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Hi\n3",
+          "output": "HiHiHi"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "절댓값 함수",
+      "description": "정수를 받아 절댓값을 반환하는 함수 abs_value(n)을 정의하고 abs_value(-10)을 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "팩토리얼 함수",
+      "description": "정수를 받아 팩토리얼을 반환하는 함수 factorial(n)을 정의하고 factorial(5)를 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "120"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "입력받은 값으로 함수 호출 (여러 개)",
+      "description": "세 정수를 입력받아(줄바꿈), 최댓값을 반환하는 함수 max_three(a, b, c)를 정의하고 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5\n8\n3",
+          "output": "8"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "문자열 역순 함수",
+      "description": "문자열을 받아 역순으로 반환하는 함수 reverse_string(s)를 정의하고 reverse_string('Python')을 호출하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "nohtyP"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "종합 문제",
+      "description": "정수를 입력받아, 그 수가 소수인지 판별하는 함수 is_prime(n)을 정의하고 호출하시오. 소수이면 'prime', 아니면 'not prime'을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "7",
+          "output": "prime"
+        },
+        {
+          "input": "10",
+          "output": "not prime"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "함수 1 문제 22",
+      "description": "함수 1 단원의 22번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "함수 1 문제 23",
+      "description": "함수 1 단원의 23번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "함수 1 문제 24",
+      "description": "함수 1 단원의 24번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "함수 1 문제 25",
+      "description": "함수 1 단원의 25번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "함수 1 문제 26",
+      "description": "함수 1 단원의 26번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "함수 1 문제 27",
+      "description": "함수 1 단원의 27번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "함수 1 문제 28",
+      "description": "함수 1 단원의 28번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "함수 1 문제 29",
+      "description": "함수 1 단원의 29번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "함수 1 문제 30",
+      "description": "함수 1 단원의 30번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "함수 1 문제 31",
+      "description": "함수 1 단원의 31번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "함수 1 문제 32",
+      "description": "함수 1 단원의 32번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "함수 1 문제 33",
+      "description": "함수 1 단원의 33번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "함수 1 문제 34",
+      "description": "함수 1 단원의 34번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "함수 1 문제 35",
+      "description": "함수 1 단원의 35번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "함수 1 문제 36",
+      "description": "함수 1 단원의 36번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "함수 1 문제 37",
+      "description": "함수 1 단원의 37번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "함수 1 문제 38",
+      "description": "함수 1 단원의 38번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "함수 1 문제 39",
+      "description": "함수 1 단원의 39번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "함수 1 문제 40",
+      "description": "함수 1 단원의 40번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "함수 1 문제 41",
+      "description": "함수 1 단원의 41번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "함수 1 문제 42",
+      "description": "함수 1 단원의 42번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "함수 1 문제 43",
+      "description": "함수 1 단원의 43번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "함수 1 문제 44",
+      "description": "함수 1 단원의 44번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "함수 1 문제 45",
+      "description": "함수 1 단원의 45번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "함수 1 문제 46",
+      "description": "함수 1 단원의 46번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "함수 1 문제 47",
+      "description": "함수 1 단원의 47번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "함수 1 문제 48",
+      "description": "함수 1 단원의 48번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "함수 1 문제 49",
+      "description": "함수 1 단원의 49번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "함수 1 문제 50",
+      "description": "함수 1 단원의 50번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "함수 1 문제 51",
+      "description": "함수 1 단원의 51번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "함수 1 문제 52",
+      "description": "함수 1 단원의 52번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "함수 1 문제 53",
+      "description": "함수 1 단원의 53번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "함수 1 문제 54",
+      "description": "함수 1 단원의 54번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "함수 1 문제 55",
+      "description": "함수 1 단원의 55번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "함수 1 문제 56",
+      "description": "함수 1 단원의 56번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "함수 1 문제 57",
+      "description": "함수 1 단원의 57번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "함수 1 문제 58",
+      "description": "함수 1 단원의 58번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "함수 1 문제 59",
+      "description": "함수 1 단원의 59번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "함수 1 문제 60",
+      "description": "함수 1 단원의 60번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "함수 1 문제 61",
+      "description": "함수 1 단원의 61번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "함수 1 문제 62",
+      "description": "함수 1 단원의 62번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "함수 1 문제 63",
+      "description": "함수 1 단원의 63번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "함수 1 문제 64",
+      "description": "함수 1 단원의 64번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "함수 1 문제 65",
+      "description": "함수 1 단원의 65번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "함수 1 문제 66",
+      "description": "함수 1 단원의 66번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "함수 1 문제 67",
+      "description": "함수 1 단원의 67번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "함수 1 문제 68",
+      "description": "함수 1 단원의 68번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "함수 1 문제 69",
+      "description": "함수 1 단원의 69번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "함수 1 문제 70",
+      "description": "함수 1 단원의 70번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "함수 1 문제 71",
+      "description": "함수 1 단원의 71번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "함수 1 문제 72",
+      "description": "함수 1 단원의 72번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "함수 1 문제 73",
+      "description": "함수 1 단원의 73번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "함수 1 문제 74",
+      "description": "함수 1 단원의 74번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "함수 1 문제 75",
+      "description": "함수 1 단원의 75번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "함수 1 문제 76",
+      "description": "함수 1 단원의 76번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "함수 1 문제 77",
+      "description": "함수 1 단원의 77번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "함수 1 문제 78",
+      "description": "함수 1 단원의 78번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "함수 1 문제 79",
+      "description": "함수 1 단원의 79번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "함수 1 문제 80",
+      "description": "함수 1 단원의 80번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "함수 1 문제 81",
+      "description": "함수 1 단원의 81번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "함수 1 문제 82",
+      "description": "함수 1 단원의 82번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "함수 1 문제 83",
+      "description": "함수 1 단원의 83번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "함수 1 문제 84",
+      "description": "함수 1 단원의 84번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "함수 1 문제 85",
+      "description": "함수 1 단원의 85번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "함수 1 문제 86",
+      "description": "함수 1 단원의 86번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "함수 1 문제 87",
+      "description": "함수 1 단원의 87번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "함수 1 문제 88",
+      "description": "함수 1 단원의 88번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "함수 1 문제 89",
+      "description": "함수 1 단원의 89번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "함수 1 문제 90",
+      "description": "함수 1 단원의 90번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "함수 1 문제 91",
+      "description": "함수 1 단원의 91번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "함수 1 문제 92",
+      "description": "함수 1 단원의 92번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "함수 1 문제 93",
+      "description": "함수 1 단원의 93번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "함수 1 문제 94",
+      "description": "함수 1 단원의 94번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "함수 1 문제 95",
+      "description": "함수 1 단원의 95번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "함수 1 문제 96",
+      "description": "함수 1 단원의 96번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "함수 1 문제 97",
+      "description": "함수 1 단원의 97번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "함수 1 문제 98",
+      "description": "함수 1 단원의 98번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "함수 1 문제 99",
+      "description": "함수 1 단원의 99번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "함수 1 문제 100",
+      "description": "함수 1 단원의 100번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    }
+  ]
+}

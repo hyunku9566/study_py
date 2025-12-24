@@ -1,0 +1,1205 @@
+{
+  "chapter_name": "디버깅",
+  "problems": [
+    {
+      "id": 1,
+      "title": "문법 오류 수정",
+      "description": "다음 코드에 문법 오류가 있습니다. 수정하여 'Hello World'를 출력하시오.\n\nprint('Hello World'",
+      "default_code": "# 오류를 수정하세요\nprint('Hello World'\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Hello World"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "들여쓰기 오류 수정",
+      "description": "다음 코드의 들여쓰기 오류를 수정하여 'OK'를 출력하시오.\n\nif True:\nprint('OK')",
+      "default_code": "# 들여쓰기를 수정하세요\nif True:\nprint('OK')\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "OK"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "변수명 오류 수정",
+      "description": "다음 코드의 변수명 오류를 수정하여 10을 출력하시오.\n\na = 10\nprint(b)",
+      "default_code": "# 변수명을 수정하세요\na = 10\nprint(b)\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "논리 오류 수정",
+      "description": "다음 코드는 10과 20의 합을 출력해야 하는데 오류가 있습니다. 수정하시오.\n\na = 10\nb = 20\nprint(a * b)",
+      "default_code": "# 연산자를 수정하세요\na = 10\nb = 20\nprint(a * b)\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "30"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "타입 오류 수정",
+      "description": "다음 코드는 문자열 '5'와 정수 3을 더해야 하는데 오류가 있습니다. 수정하시오.\n\na = '5'\nb = 3\nprint(a + b)",
+      "default_code": "# 타입 변환을 추가하세요\na = '5'\nb = 3\nprint(a + b)\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "8"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "디버깅 문제 6",
+      "description": "디버깅 단원의 6번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "디버깅 문제 7",
+      "description": "디버깅 단원의 7번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "디버깅 문제 8",
+      "description": "디버깅 단원의 8번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "디버깅 문제 9",
+      "description": "디버깅 단원의 9번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "디버깅 문제 10",
+      "description": "디버깅 단원의 10번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "디버깅 문제 11",
+      "description": "디버깅 단원의 11번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "디버깅 문제 12",
+      "description": "디버깅 단원의 12번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "디버깅 문제 13",
+      "description": "디버깅 단원의 13번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "디버깅 문제 14",
+      "description": "디버깅 단원의 14번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "디버깅 문제 15",
+      "description": "디버깅 단원의 15번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "디버깅 문제 16",
+      "description": "디버깅 단원의 16번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "디버깅 문제 17",
+      "description": "디버깅 단원의 17번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "디버깅 문제 18",
+      "description": "디버깅 단원의 18번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "디버깅 문제 19",
+      "description": "디버깅 단원의 19번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "디버깅 문제 20",
+      "description": "디버깅 단원의 20번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "디버깅 문제 21",
+      "description": "디버깅 단원의 21번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "디버깅 문제 22",
+      "description": "디버깅 단원의 22번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "디버깅 문제 23",
+      "description": "디버깅 단원의 23번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "디버깅 문제 24",
+      "description": "디버깅 단원의 24번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "디버깅 문제 25",
+      "description": "디버깅 단원의 25번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "디버깅 문제 26",
+      "description": "디버깅 단원의 26번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "디버깅 문제 27",
+      "description": "디버깅 단원의 27번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "디버깅 문제 28",
+      "description": "디버깅 단원의 28번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "디버깅 문제 29",
+      "description": "디버깅 단원의 29번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "디버깅 문제 30",
+      "description": "디버깅 단원의 30번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "디버깅 문제 31",
+      "description": "디버깅 단원의 31번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "디버깅 문제 32",
+      "description": "디버깅 단원의 32번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "디버깅 문제 33",
+      "description": "디버깅 단원의 33번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "디버깅 문제 34",
+      "description": "디버깅 단원의 34번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "디버깅 문제 35",
+      "description": "디버깅 단원의 35번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "디버깅 문제 36",
+      "description": "디버깅 단원의 36번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "디버깅 문제 37",
+      "description": "디버깅 단원의 37번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "디버깅 문제 38",
+      "description": "디버깅 단원의 38번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "디버깅 문제 39",
+      "description": "디버깅 단원의 39번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "디버깅 문제 40",
+      "description": "디버깅 단원의 40번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "디버깅 문제 41",
+      "description": "디버깅 단원의 41번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "디버깅 문제 42",
+      "description": "디버깅 단원의 42번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "디버깅 문제 43",
+      "description": "디버깅 단원의 43번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "디버깅 문제 44",
+      "description": "디버깅 단원의 44번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "디버깅 문제 45",
+      "description": "디버깅 단원의 45번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "디버깅 문제 46",
+      "description": "디버깅 단원의 46번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "디버깅 문제 47",
+      "description": "디버깅 단원의 47번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "디버깅 문제 48",
+      "description": "디버깅 단원의 48번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "디버깅 문제 49",
+      "description": "디버깅 단원의 49번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "디버깅 문제 50",
+      "description": "디버깅 단원의 50번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "디버깅 문제 51",
+      "description": "디버깅 단원의 51번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "디버깅 문제 52",
+      "description": "디버깅 단원의 52번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "디버깅 문제 53",
+      "description": "디버깅 단원의 53번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "디버깅 문제 54",
+      "description": "디버깅 단원의 54번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "디버깅 문제 55",
+      "description": "디버깅 단원의 55번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "디버깅 문제 56",
+      "description": "디버깅 단원의 56번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "디버깅 문제 57",
+      "description": "디버깅 단원의 57번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "디버깅 문제 58",
+      "description": "디버깅 단원의 58번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "디버깅 문제 59",
+      "description": "디버깅 단원의 59번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "디버깅 문제 60",
+      "description": "디버깅 단원의 60번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "디버깅 문제 61",
+      "description": "디버깅 단원의 61번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "디버깅 문제 62",
+      "description": "디버깅 단원의 62번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "디버깅 문제 63",
+      "description": "디버깅 단원의 63번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "디버깅 문제 64",
+      "description": "디버깅 단원의 64번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "디버깅 문제 65",
+      "description": "디버깅 단원의 65번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "디버깅 문제 66",
+      "description": "디버깅 단원의 66번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "디버깅 문제 67",
+      "description": "디버깅 단원의 67번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "디버깅 문제 68",
+      "description": "디버깅 단원의 68번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "디버깅 문제 69",
+      "description": "디버깅 단원의 69번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "디버깅 문제 70",
+      "description": "디버깅 단원의 70번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "디버깅 문제 71",
+      "description": "디버깅 단원의 71번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "디버깅 문제 72",
+      "description": "디버깅 단원의 72번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "디버깅 문제 73",
+      "description": "디버깅 단원의 73번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "디버깅 문제 74",
+      "description": "디버깅 단원의 74번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "디버깅 문제 75",
+      "description": "디버깅 단원의 75번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "디버깅 문제 76",
+      "description": "디버깅 단원의 76번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "디버깅 문제 77",
+      "description": "디버깅 단원의 77번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "디버깅 문제 78",
+      "description": "디버깅 단원의 78번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "디버깅 문제 79",
+      "description": "디버깅 단원의 79번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "디버깅 문제 80",
+      "description": "디버깅 단원의 80번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "디버깅 문제 81",
+      "description": "디버깅 단원의 81번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "디버깅 문제 82",
+      "description": "디버깅 단원의 82번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "디버깅 문제 83",
+      "description": "디버깅 단원의 83번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "디버깅 문제 84",
+      "description": "디버깅 단원의 84번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "디버깅 문제 85",
+      "description": "디버깅 단원의 85번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "디버깅 문제 86",
+      "description": "디버깅 단원의 86번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "디버깅 문제 87",
+      "description": "디버깅 단원의 87번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "디버깅 문제 88",
+      "description": "디버깅 단원의 88번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "디버깅 문제 89",
+      "description": "디버깅 단원의 89번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "디버깅 문제 90",
+      "description": "디버깅 단원의 90번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "디버깅 문제 91",
+      "description": "디버깅 단원의 91번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "디버깅 문제 92",
+      "description": "디버깅 단원의 92번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "디버깅 문제 93",
+      "description": "디버깅 단원의 93번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "디버깅 문제 94",
+      "description": "디버깅 단원의 94번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "디버깅 문제 95",
+      "description": "디버깅 단원의 95번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "디버깅 문제 96",
+      "description": "디버깅 단원의 96번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "디버깅 문제 97",
+      "description": "디버깅 단원의 97번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "디버깅 문제 98",
+      "description": "디버깅 단원의 98번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "디버깅 문제 99",
+      "description": "디버깅 단원의 99번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "디버깅 문제 100",
+      "description": "디버깅 단원의 100번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    }
+  ]
+}

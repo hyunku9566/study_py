@@ -1,0 +1,1205 @@
+{
+  "chapter_name": "출력",
+  "problems": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "description": "화면에 'Hello World'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Hello World"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "두 줄 출력",
+      "description": "다음과 같이 두 줄을 출력하시오.\n\nPython\nProgramming",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Python\nProgramming"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "특수문자 출력",
+      "description": "화면에 '!@#$%^&*()' 를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "!@#$%^&*()"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "숫자 출력",
+      "description": "숫자 100과 3.14를 각각 줄을 바꿔 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "100\n3.14"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "연산 결과 출력",
+      "description": "25와 4의 곱셈 결과를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "100"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "여러 값 출력",
+      "description": "콤마(,)를 사용하여 'Hello', 'Python', '!' 세 단어를 한 줄에 공백으로 구분하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Hello Python !"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "구분자 변경 (sep)",
+      "description": "10, 20, 30을 출력하되, 값 사이에 콜론(:)을 넣어 출력하시오. (sep 옵션 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "10:20:30"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "줄바꿈 방지 (end)",
+      "description": "print 함수를 두 번 사용하여 'Hello'와 'World'를 출력하되, 두 단어가 한 줄에 이어서 출력되도록 하시오. (end 옵션 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "HelloWorld"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "여러 줄 문자열",
+      "description": "작은따옴표 또는 큰따옴표 3개를 사용하여 아래 문장을 그대로 출력하시오.\n\n동해물과 백두산이\n마르고 닳도록",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "동해물과 백두산이\n마르고 닳도록"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "이스케이프 문자 (줄바꿈)",
+      "description": "하나의 print 문을 사용하여 'First'와 'Second'를 줄을 바꿔 출력하시오. (\\n 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "First\nSecond"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "이스케이프 문자 (탭)",
+      "description": "'Name'과 'Age' 사이에 탭(Tab) 간격을 두어 출력하시오. (\\t 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Name\tAge"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "따옴표 출력 1",
+      "description": "문장 안에 작은따옴표(')가 포함된 \"It's raining\"을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "It's raining"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "따옴표 출력 2",
+      "description": "문장 안에 큰따옴표(\")가 포함된 'He said \"Hello\"'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "He said \"Hello\""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "역슬래시 출력",
+      "description": "경로를 나타내는 C:\\Windows 문자를 출력하시오. (역슬래시 기호 자체를 출력)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "C:\\Windows"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "문자열 반복",
+      "description": "'*' 기호를 10번 반복하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "**********"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "종합 예제",
+      "description": "다음과 같은 형식으로 출력하시오.\n\n*** Result ***\nScore : 100",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "*** Result ***\nScore : 100"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "특수문자 출력",
+      "description": "화면에 '!!!!!!!!!!!!!!!!!'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "!!!!!!!!!!!!!!!!!"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "특수문자 출력",
+      "description": "화면에 '!!!!!!!!!!!!!!!!!!'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "!!!!!!!!!!!!!!!!!!"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "여러 줄 출력",
+      "description": "다음과 같이 출력하시오:\n\nLine 19\nLine 20",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 19"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "기본 문자열 출력",
+      "description": "화면에 'Output 20'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 20"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "여러 줄 출력",
+      "description": "다음과 같이 출력하시오:\n\nLine 21\nLine 22",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 21"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "특수문자 출력",
+      "description": "화면에 '!!!!!!!!!!!!!!!!!!!!!!'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "!!!!!!!!!!!!!!!!!!!!!!"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "여러 줄 출력",
+      "description": "다음과 같이 출력하시오:\n\nLine 23\nLine 24",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 23"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "기본 문자열 출력",
+      "description": "화면에 'Output 24'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 24"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "여러 줄 출력",
+      "description": "다음과 같이 출력하시오:\n\nLine 25\nLine 26",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 25"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "특수문자 출력",
+      "description": "화면에 '!!!!!!!!!!!!!!!!!!!!!!!!!!'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "특수문자 출력",
+      "description": "화면에 '!!!!!!!!!!!!!!!!!!!!!!!!!!!'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "숫자 출력",
+      "description": "숫자 280을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 28"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "여러 줄 출력",
+      "description": "다음과 같이 출력하시오:\n\nLine 29\nLine 30",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Output 29"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "특수문자 출력",
+      "description": "화면에 '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student31', age=51일 때, 'My name is Student31 and I am 51 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student31'\nage = 51\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student31 and I am 51 years old."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part32'와 'Part33'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part32"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part33'와 'Part34'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part33"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part34'와 'Part35'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part34"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student35', age=55일 때, 'My name is Student35 and I am 55 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student35'\nage = 55\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student35 and I am 55 years old."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part36'와 'Part37'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part36"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student37', age=57일 때, 'My name is Student37 and I am 57 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student37'\nage = 57\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student37 and I am 57 years old."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student38', age=58일 때, 'My name is Student38 and I am 58 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student38'\nage = 58\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student38 and I am 58 years old."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student39', age=59일 때, 'My name is Student39 and I am 59 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student39'\nage = 59\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student39 and I am 59 years old."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "sep 사용",
+      "description": "40, 80, 120을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part41'와 'Part42'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part41"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part42'와 'Part43'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part42"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "sep 사용",
+      "description": "43, 86, 129을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student44', age=64일 때, 'My name is Student44 and I am 64 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student44'\nage = 64\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student44 and I am 64 years old."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "sep 사용",
+      "description": "45, 90, 135을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part46'와 'Part47'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part46"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part47'와 'Part48'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part47"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "sep 사용",
+      "description": "48, 96, 144을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student49', age=69일 때, 'My name is Student49 and I am 69 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student49'\nage = 69\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student49 and I am 69 years old."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "sep 사용",
+      "description": "50, 100, 150을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "sep 사용",
+      "description": "51, 102, 153을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student52', age=72일 때, 'My name is Student52 and I am 72 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student52'\nage = 72\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student52 and I am 72 years old."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "sep 사용",
+      "description": "53, 106, 159을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student54', age=74일 때, 'My name is Student54 and I am 74 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student54'\nage = 74\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student54 and I am 74 years old."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student55', age=75일 때, 'My name is Student55 and I am 75 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student55'\nage = 75\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student55 and I am 75 years old."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student56', age=76일 때, 'My name is Student56 and I am 76 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student56'\nage = 76\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student56 and I am 76 years old."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part57'와 'Part58'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part57"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student58', age=78일 때, 'My name is Student58 and I am 78 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student58'\nage = 78\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student58 and I am 78 years old."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "sep 사용",
+      "description": "59, 118, 177을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "end 사용",
+      "description": "print 함수를 여러 번 사용하여 'Part60'와 'Part61'를 한 줄에 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Part60"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "sep 사용",
+      "description": "61, 122, 183을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student62', age=82일 때, 'My name is Student62 and I am 82 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student62'\nage = 82\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student62 and I am 82 years old."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student63', age=83일 때, 'My name is Student63 and I am 83 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student63'\nage = 83\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student63 and I am 83 years old."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "sep 사용",
+      "description": "64, 128, 192을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "sep 사용",
+      "description": "65, 130, 195을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "sep 사용",
+      "description": "66, 132, 198을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student67', age=87일 때, 'My name is Student67 and I am 87 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student67'\nage = 87\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student67 and I am 87 years old."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "sep 사용",
+      "description": "68, 136, 204을 출력하되, 값 사이에 ':'를 넣어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ":"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student69', age=89일 때, 'My name is Student69 and I am 89 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student69'\nage = 89\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student69 and I am 89 years old."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "포맷팅 출력",
+      "description": "변수 name='Student70', age=90일 때, 'My name is Student70 and I am 90 years old.'를 format() 또는 f-string을 사용하여 출력하시오.",
+      "default_code": "name = 'Student70'\nage = 90\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is Student70 and I am 90 years old."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "서식 문자",
+      "description": "변수 price=7135.50일 때, 'The price is $7135.50' 형식으로 출력하시오.",
+      "default_code": "price = 7135.5\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $7135.50"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "서식 문자",
+      "description": "변수 price=7236.00일 때, 'The price is $7236.00' 형식으로 출력하시오.",
+      "default_code": "price = 7236.0\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $7236.00"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "정렬 출력",
+      "description": "문자열 'Item73'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item73"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "서식 문자",
+      "description": "변수 price=7437.00일 때, 'The price is $7437.00' 형식으로 출력하시오.",
+      "default_code": "price = 7437.0\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $7437.00"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User75', score=787.5, grade='A'일 때, 'User75의 점수는 787.5점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User75'\nscore = 787.5\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User75"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "서식 문자",
+      "description": "변수 price=7638.00일 때, 'The price is $7638.00' 형식으로 출력하시오.",
+      "default_code": "price = 7638.0\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $7638.00"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "정렬 출력",
+      "description": "문자열 'Item77'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item77"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User78', score=819.0, grade='A'일 때, 'User78의 점수는 819.0점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User78'\nscore = 819.0\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User78"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "정렬 출력",
+      "description": "문자열 'Item79'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item79"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "서식 문자",
+      "description": "변수 price=8040.00일 때, 'The price is $8040.00' 형식으로 출력하시오.",
+      "default_code": "price = 8040.0\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $8040.00"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User81', score=850.5, grade='A'일 때, 'User81의 점수는 850.5점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User81'\nscore = 850.5\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User81"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User82', score=861.0, grade='A'일 때, 'User82의 점수는 861.0점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User82'\nscore = 861.0\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User82"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User83', score=871.5, grade='A'일 때, 'User83의 점수는 871.5점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User83'\nscore = 871.5\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User83"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User84', score=882.0, grade='A'일 때, 'User84의 점수는 882.0점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User84'\nscore = 882.0\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User84"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "정렬 출력",
+      "description": "문자열 'Item85'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item85"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User86', score=903.0, grade='A'일 때, 'User86의 점수는 903.0점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User86'\nscore = 903.0\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User86"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "서식 문자",
+      "description": "변수 price=8743.50일 때, 'The price is $8743.50' 형식으로 출력하시오.",
+      "default_code": "price = 8743.5\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $8743.50"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User88', score=924.0, grade='A'일 때, 'User88의 점수는 924.0점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User88'\nscore = 924.0\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User88"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "정렬 출력",
+      "description": "문자열 'Item89'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item89"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "서식 문자",
+      "description": "변수 price=9045.00일 때, 'The price is $9045.00' 형식으로 출력하시오.",
+      "default_code": "price = 9045.0\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $9045.00"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "서식 문자",
+      "description": "변수 price=9145.50일 때, 'The price is $9145.50' 형식으로 출력하시오.",
+      "default_code": "price = 9145.5\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $9145.50"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "정렬 출력",
+      "description": "문자열 'Item92'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item92"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User93', score=976.5, grade='A'일 때, 'User93의 점수는 976.5점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User93'\nscore = 976.5\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User93"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "서식 문자",
+      "description": "변수 price=9447.00일 때, 'The price is $9447.00' 형식으로 출력하시오.",
+      "default_code": "price = 9447.0\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $9447.00"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "정렬 출력",
+      "description": "문자열 'Item95'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item95"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "정렬 출력",
+      "description": "문자열 'Item96'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item96"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "정렬 출력",
+      "description": "문자열 'Item97'를 15자리로 오른쪽 정렬하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Item97"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User98', score=1029.0, grade='A'일 때, 'User98의 점수는 1029.0점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User98'\nscore = 1029.0\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User98"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "서식 문자",
+      "description": "변수 price=9949.50일 때, 'The price is $9949.50' 형식으로 출력하시오.",
+      "default_code": "price = 9949.5\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "The price is $9949.50"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "복잡한 포맷팅",
+      "description": "변수 name='User100', score=1050.0, grade='A'일 때, 'User100의 점수는 1050.0점이며, 등급은 A입니다.'를 출력하시오.",
+      "default_code": "name = 'User100'\nscore = 1050.0\ngrade = 'A'\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "User100"
+        }
+      ]
+    }
+  ]
+}

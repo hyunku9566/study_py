@@ -1,0 +1,15 @@
+[project]
+name = "eval-python-test"
+version = "0.1.0"
+description = "Streamlit 기반 파이썬 레벨 테스트 시스템"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.30.0",
+    "google-generativeai>=0.3.0",
+    "pandas>=2.0.0",
+    "streamlit-ace>=0.1.1",
+]
+
+[tool.uv]
+dev-dependencies = []

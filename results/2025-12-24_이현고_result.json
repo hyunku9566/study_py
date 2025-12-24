@@ -1,0 +1,35 @@
+{
+  "user_name": "이현고",
+  "date": "2025-12-24",
+  "start_time": "21:46:32",
+  "end_time": null,
+  "last_updated": "21:47:18",
+  "is_finished": false,
+  "solve_status": {
+    "0_4": {
+      "status": "PASS",
+      "submissions": 1,
+      "first_pass": 1
+    },
+    "0_23": {
+      "status": "FAIL",
+      "submissions": 1,
+      "first_pass": null
+    }
+  },
+  "selected_problems": {
+    "0": [
+      4,
+      23,
+      32,
+      45,
+      48,
+      50,
+      61,
+      74,
+      78,
+      79
+    ]
+  },
+  "exit_logs": []
+}

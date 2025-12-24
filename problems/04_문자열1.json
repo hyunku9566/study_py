@@ -1,0 +1,1205 @@
+{
+  "chapter_name": "문자열1",
+  "problems": [
+    {
+      "id": 1,
+      "title": "문자열 생성",
+      "description": "큰따옴표를 사용하여 'Python is fun' 문자열을 만들고 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Python is fun"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "인덱싱 (첫 글자)",
+      "description": "문자열 'Hello'의 첫 번째 글자를 인덱싱하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "인덱싱 (마지막 글자)",
+      "description": "문자열 'Hello'의 마지막 글자를 음수 인덱스를 사용하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "o"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "슬라이싱 (앞부분)",
+      "description": "문자열 '20240501Weather'에서 앞의 8자리(날짜)만 슬라이싱하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "20240501"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "슬라이싱 (뒷부분)",
+      "description": "문자열 '20240501Weather'에서 뒤의 'Weather' 부분만 슬라이싱하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Weather"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "문자열 더하기",
+      "description": "'Head'와 'Tail' 두 문자열을 더하여 'HeadTail'을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "HeadTail"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "문자열 곱하기",
+      "description": "'Run!' 문자열을 3번 반복하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Run!Run!Run!"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "문자열 길이 (len)",
+      "description": "'Python Programming' 문자열의 길이를 구하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "18"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "문자 개수 세기 (count)",
+      "description": "'banana' 문자열 안에 'a'가 몇 개 있는지 구하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "3"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "위치 찾기 (find)",
+      "description": "'Python is best' 에서 'best'가 시작되는 인덱스를 찾으시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "위치 찾기 (index)",
+      "description": "'Life is short' 에서 'short'의 인덱스를 index 함수로 찾으시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "8"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "문자열 삽입 (join)",
+      "description": "문자열 'abcd'의 각각의 문자 사이에 ','를 삽입하여 출력하시오. (예: a,b,c,d)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "a,b,c,d"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "대문자로 변환 (upper)",
+      "description": "'hi'를 대문자 'HI'로 변환하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "HI"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "소문자로 변환 (lower)",
+      "description": "'HELLO'를 소문자 'hello'로 변환하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "hello"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "공백 지우기 (strip)",
+      "description": "'  hi  ' 양쪽의 공백을 제거하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "hi"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "문자열 바꾸기 (replace)",
+      "description": "'Life is too short'에서 'short'를 'long'으로 바꾸어 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "Life is too long"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "문자열 나누기 (split)",
+      "description": "'a:b:c:d' 문자열을 콜론(:)을 기준으로 나누어 리스트로 만드시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "['a', 'b', 'c', 'd']"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "문자열 포맷팅 (%)",
+      "description": "% 포맷팅을 사용하여 'I eat 3 apples.'를 출력하시오. (숫자 3을 대입)",
+      "default_code": "# 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "I eat 3 apples."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "문자열 포맷팅 (format)",
+      "description": "format 함수를 사용하여 'I eat 3 apples.'를 출력하시오.",
+      "default_code": "# 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "I eat 3 apples."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "문자열 기본 20",
+      "description": "문자열 'String20'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String20"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "문자열 기본 21",
+      "description": "문자열 'String21'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String21"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "문자열 기본 22",
+      "description": "문자열 'String22'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String22"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "문자열 기본 23",
+      "description": "문자열 'String23'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String23"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "문자열 기본 24",
+      "description": "문자열 'String24'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String24"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "문자열 기본 25",
+      "description": "문자열 'String25'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String25"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "문자열 기본 26",
+      "description": "문자열 'String26'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String26"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "문자열 기본 27",
+      "description": "문자열 'String27'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String27"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "문자열 기본 28",
+      "description": "문자열 'String28'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String28"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "문자열 기본 29",
+      "description": "문자열 'String29'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String29"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "문자열 기본 30",
+      "description": "문자열 'String30'를 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "String30"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "문자열 포맷팅 31",
+      "description": "변수 name='User31', age=51일 때, f-string을 사용하여 'My name is User31 and I am 51 years old.'를 출력하시오.",
+      "default_code": "name = 'User31'\nage = 51\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User31 and I am 51 years old."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "문자열 포맷팅 32",
+      "description": "변수 name='User32', age=52일 때, f-string을 사용하여 'My name is User32 and I am 52 years old.'를 출력하시오.",
+      "default_code": "name = 'User32'\nage = 52\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User32 and I am 52 years old."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "문자열 포맷팅 33",
+      "description": "변수 name='User33', age=53일 때, f-string을 사용하여 'My name is User33 and I am 53 years old.'를 출력하시오.",
+      "default_code": "name = 'User33'\nage = 53\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User33 and I am 53 years old."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "문자열 포맷팅 34",
+      "description": "변수 name='User34', age=54일 때, f-string을 사용하여 'My name is User34 and I am 54 years old.'를 출력하시오.",
+      "default_code": "name = 'User34'\nage = 54\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User34 and I am 54 years old."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "문자열 포맷팅 35",
+      "description": "변수 name='User35', age=55일 때, f-string을 사용하여 'My name is User35 and I am 55 years old.'를 출력하시오.",
+      "default_code": "name = 'User35'\nage = 55\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User35 and I am 55 years old."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "문자열 포맷팅 36",
+      "description": "변수 name='User36', age=56일 때, f-string을 사용하여 'My name is User36 and I am 56 years old.'를 출력하시오.",
+      "default_code": "name = 'User36'\nage = 56\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User36 and I am 56 years old."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "문자열 포맷팅 37",
+      "description": "변수 name='User37', age=57일 때, f-string을 사용하여 'My name is User37 and I am 57 years old.'를 출력하시오.",
+      "default_code": "name = 'User37'\nage = 57\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User37 and I am 57 years old."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "문자열 포맷팅 38",
+      "description": "변수 name='User38', age=58일 때, f-string을 사용하여 'My name is User38 and I am 58 years old.'를 출력하시오.",
+      "default_code": "name = 'User38'\nage = 58\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User38 and I am 58 years old."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "문자열 포맷팅 39",
+      "description": "변수 name='User39', age=59일 때, f-string을 사용하여 'My name is User39 and I am 59 years old.'를 출력하시오.",
+      "default_code": "name = 'User39'\nage = 59\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User39 and I am 59 years old."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "문자열 포맷팅 40",
+      "description": "변수 name='User40', age=60일 때, f-string을 사용하여 'My name is User40 and I am 60 years old.'를 출력하시오.",
+      "default_code": "name = 'User40'\nage = 60\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User40 and I am 60 years old."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "문자열 포맷팅 41",
+      "description": "변수 name='User41', age=61일 때, f-string을 사용하여 'My name is User41 and I am 61 years old.'를 출력하시오.",
+      "default_code": "name = 'User41'\nage = 61\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User41 and I am 61 years old."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "문자열 포맷팅 42",
+      "description": "변수 name='User42', age=62일 때, f-string을 사용하여 'My name is User42 and I am 62 years old.'를 출력하시오.",
+      "default_code": "name = 'User42'\nage = 62\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User42 and I am 62 years old."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "문자열 포맷팅 43",
+      "description": "변수 name='User43', age=63일 때, f-string을 사용하여 'My name is User43 and I am 63 years old.'를 출력하시오.",
+      "default_code": "name = 'User43'\nage = 63\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User43 and I am 63 years old."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "문자열 포맷팅 44",
+      "description": "변수 name='User44', age=64일 때, f-string을 사용하여 'My name is User44 and I am 64 years old.'를 출력하시오.",
+      "default_code": "name = 'User44'\nage = 64\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User44 and I am 64 years old."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "문자열 포맷팅 45",
+      "description": "변수 name='User45', age=65일 때, f-string을 사용하여 'My name is User45 and I am 65 years old.'를 출력하시오.",
+      "default_code": "name = 'User45'\nage = 65\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User45 and I am 65 years old."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "문자열 포맷팅 46",
+      "description": "변수 name='User46', age=66일 때, f-string을 사용하여 'My name is User46 and I am 66 years old.'를 출력하시오.",
+      "default_code": "name = 'User46'\nage = 66\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User46 and I am 66 years old."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "문자열 포맷팅 47",
+      "description": "변수 name='User47', age=67일 때, f-string을 사용하여 'My name is User47 and I am 67 years old.'를 출력하시오.",
+      "default_code": "name = 'User47'\nage = 67\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User47 and I am 67 years old."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "문자열 포맷팅 48",
+      "description": "변수 name='User48', age=68일 때, f-string을 사용하여 'My name is User48 and I am 68 years old.'를 출력하시오.",
+      "default_code": "name = 'User48'\nage = 68\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User48 and I am 68 years old."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "문자열 포맷팅 49",
+      "description": "변수 name='User49', age=69일 때, f-string을 사용하여 'My name is User49 and I am 69 years old.'를 출력하시오.",
+      "default_code": "name = 'User49'\nage = 69\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User49 and I am 69 years old."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "문자열 포맷팅 50",
+      "description": "변수 name='User50', age=70일 때, f-string을 사용하여 'My name is User50 and I am 70 years old.'를 출력하시오.",
+      "default_code": "name = 'User50'\nage = 70\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User50 and I am 70 years old."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "문자열 포맷팅 51",
+      "description": "변수 name='User51', age=71일 때, f-string을 사용하여 'My name is User51 and I am 71 years old.'를 출력하시오.",
+      "default_code": "name = 'User51'\nage = 71\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User51 and I am 71 years old."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "문자열 포맷팅 52",
+      "description": "변수 name='User52', age=72일 때, f-string을 사용하여 'My name is User52 and I am 72 years old.'를 출력하시오.",
+      "default_code": "name = 'User52'\nage = 72\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User52 and I am 72 years old."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "문자열 포맷팅 53",
+      "description": "변수 name='User53', age=73일 때, f-string을 사용하여 'My name is User53 and I am 73 years old.'를 출력하시오.",
+      "default_code": "name = 'User53'\nage = 73\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User53 and I am 73 years old."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "문자열 포맷팅 54",
+      "description": "변수 name='User54', age=74일 때, f-string을 사용하여 'My name is User54 and I am 74 years old.'를 출력하시오.",
+      "default_code": "name = 'User54'\nage = 74\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User54 and I am 74 years old."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "문자열 포맷팅 55",
+      "description": "변수 name='User55', age=75일 때, f-string을 사용하여 'My name is User55 and I am 75 years old.'를 출력하시오.",
+      "default_code": "name = 'User55'\nage = 75\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User55 and I am 75 years old."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "문자열 포맷팅 56",
+      "description": "변수 name='User56', age=76일 때, f-string을 사용하여 'My name is User56 and I am 76 years old.'를 출력하시오.",
+      "default_code": "name = 'User56'\nage = 76\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User56 and I am 76 years old."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "문자열 포맷팅 57",
+      "description": "변수 name='User57', age=77일 때, f-string을 사용하여 'My name is User57 and I am 77 years old.'를 출력하시오.",
+      "default_code": "name = 'User57'\nage = 77\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User57 and I am 77 years old."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "문자열 포맷팅 58",
+      "description": "변수 name='User58', age=78일 때, f-string을 사용하여 'My name is User58 and I am 78 years old.'를 출력하시오.",
+      "default_code": "name = 'User58'\nage = 78\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User58 and I am 78 years old."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "문자열 포맷팅 59",
+      "description": "변수 name='User59', age=79일 때, f-string을 사용하여 'My name is User59 and I am 79 years old.'를 출력하시오.",
+      "default_code": "name = 'User59'\nage = 79\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User59 and I am 79 years old."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "문자열 포맷팅 60",
+      "description": "변수 name='User60', age=80일 때, f-string을 사용하여 'My name is User60 and I am 80 years old.'를 출력하시오.",
+      "default_code": "name = 'User60'\nage = 80\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User60 and I am 80 years old."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "문자열 포맷팅 61",
+      "description": "변수 name='User61', age=81일 때, f-string을 사용하여 'My name is User61 and I am 81 years old.'를 출력하시오.",
+      "default_code": "name = 'User61'\nage = 81\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User61 and I am 81 years old."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "문자열 포맷팅 62",
+      "description": "변수 name='User62', age=82일 때, f-string을 사용하여 'My name is User62 and I am 82 years old.'를 출력하시오.",
+      "default_code": "name = 'User62'\nage = 82\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User62 and I am 82 years old."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "문자열 포맷팅 63",
+      "description": "변수 name='User63', age=83일 때, f-string을 사용하여 'My name is User63 and I am 83 years old.'를 출력하시오.",
+      "default_code": "name = 'User63'\nage = 83\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User63 and I am 83 years old."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "문자열 포맷팅 64",
+      "description": "변수 name='User64', age=84일 때, f-string을 사용하여 'My name is User64 and I am 84 years old.'를 출력하시오.",
+      "default_code": "name = 'User64'\nage = 84\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User64 and I am 84 years old."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "문자열 포맷팅 65",
+      "description": "변수 name='User65', age=85일 때, f-string을 사용하여 'My name is User65 and I am 85 years old.'를 출력하시오.",
+      "default_code": "name = 'User65'\nage = 85\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User65 and I am 85 years old."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "문자열 포맷팅 66",
+      "description": "변수 name='User66', age=86일 때, f-string을 사용하여 'My name is User66 and I am 86 years old.'를 출력하시오.",
+      "default_code": "name = 'User66'\nage = 86\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User66 and I am 86 years old."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "문자열 포맷팅 67",
+      "description": "변수 name='User67', age=87일 때, f-string을 사용하여 'My name is User67 and I am 87 years old.'를 출력하시오.",
+      "default_code": "name = 'User67'\nage = 87\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User67 and I am 87 years old."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "문자열 포맷팅 68",
+      "description": "변수 name='User68', age=88일 때, f-string을 사용하여 'My name is User68 and I am 88 years old.'를 출력하시오.",
+      "default_code": "name = 'User68'\nage = 88\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User68 and I am 88 years old."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "문자열 포맷팅 69",
+      "description": "변수 name='User69', age=89일 때, f-string을 사용하여 'My name is User69 and I am 89 years old.'를 출력하시오.",
+      "default_code": "name = 'User69'\nage = 89\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User69 and I am 89 years old."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "문자열 포맷팅 70",
+      "description": "변수 name='User70', age=90일 때, f-string을 사용하여 'My name is User70 and I am 90 years old.'를 출력하시오.",
+      "default_code": "name = 'User70'\nage = 90\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "My name is User70 and I am 90 years old."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "서식 문자 활용 71",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person71 241 136.5",
+          "output": "Person71의 키는 241cm이며, 몸무게는 136.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "서식 문자 활용 72",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person72 242 137.5",
+          "output": "Person72의 키는 242cm이며, 몸무게는 137.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "서식 문자 활용 73",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person73 243 138.5",
+          "output": "Person73의 키는 243cm이며, 몸무게는 138.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "서식 문자 활용 74",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person74 244 139.5",
+          "output": "Person74의 키는 244cm이며, 몸무게는 139.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "서식 문자 활용 75",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person75 245 140.5",
+          "output": "Person75의 키는 245cm이며, 몸무게는 140.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "서식 문자 활용 76",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person76 246 141.5",
+          "output": "Person76의 키는 246cm이며, 몸무게는 141.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "서식 문자 활용 77",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person77 247 142.5",
+          "output": "Person77의 키는 247cm이며, 몸무게는 142.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "서식 문자 활용 78",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person78 248 143.5",
+          "output": "Person78의 키는 248cm이며, 몸무게는 143.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "서식 문자 활용 79",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person79 249 144.5",
+          "output": "Person79의 키는 249cm이며, 몸무게는 144.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "서식 문자 활용 80",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person80 250 145.5",
+          "output": "Person80의 키는 250cm이며, 몸무게는 145.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "서식 문자 활용 81",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person81 251 146.5",
+          "output": "Person81의 키는 251cm이며, 몸무게는 146.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "서식 문자 활용 82",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person82 252 147.5",
+          "output": "Person82의 키는 252cm이며, 몸무게는 147.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "서식 문자 활용 83",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person83 253 148.5",
+          "output": "Person83의 키는 253cm이며, 몸무게는 148.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "서식 문자 활용 84",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person84 254 149.5",
+          "output": "Person84의 키는 254cm이며, 몸무게는 149.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "서식 문자 활용 85",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person85 255 150.5",
+          "output": "Person85의 키는 255cm이며, 몸무게는 150.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "서식 문자 활용 86",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person86 256 151.5",
+          "output": "Person86의 키는 256cm이며, 몸무게는 151.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "서식 문자 활용 87",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person87 257 152.5",
+          "output": "Person87의 키는 257cm이며, 몸무게는 152.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "서식 문자 활용 88",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person88 258 153.5",
+          "output": "Person88의 키는 258cm이며, 몸무게는 153.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "서식 문자 활용 89",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person89 259 154.5",
+          "output": "Person89의 키는 259cm이며, 몸무게는 154.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "서식 문자 활용 90",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person90 260 155.5",
+          "output": "Person90의 키는 260cm이며, 몸무게는 155.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "서식 문자 활용 91",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person91 261 156.5",
+          "output": "Person91의 키는 261cm이며, 몸무게는 156.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "서식 문자 활용 92",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person92 262 157.5",
+          "output": "Person92의 키는 262cm이며, 몸무게는 157.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "서식 문자 활용 93",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person93 263 158.5",
+          "output": "Person93의 키는 263cm이며, 몸무게는 158.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "서식 문자 활용 94",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person94 264 159.5",
+          "output": "Person94의 키는 264cm이며, 몸무게는 159.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "서식 문자 활용 95",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person95 265 160.5",
+          "output": "Person95의 키는 265cm이며, 몸무게는 160.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "서식 문자 활용 96",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person96 266 161.5",
+          "output": "Person96의 키는 266cm이며, 몸무게는 161.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "서식 문자 활용 97",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person97 267 162.5",
+          "output": "Person97의 키는 267cm이며, 몸무게는 162.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "서식 문자 활용 98",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person98 268 163.5",
+          "output": "Person98의 키는 268cm이며, 몸무게는 163.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "서식 문자 활용 99",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person99 269 164.5",
+          "output": "Person99의 키는 269cm이며, 몸무게는 164.5kg입니다."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "서식 문자 활용 100",
+      "description": "이름과 키, 몸무게를 입력받아(공백 구분) 서식 문자를 사용하여 '[이름]의 키는 [키]cm이며, 몸무게는 [몸무게]kg입니다.' 형식으로 출력하시오. (몸무게는 소수점 첫째자리까지)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "Person100 270 165.5",
+          "output": "Person100의 키는 270cm이며, 몸무게는 165.5kg입니다."
+        }
+      ]
+    }
+  ]
+}

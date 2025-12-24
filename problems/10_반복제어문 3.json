@@ -1,0 +1,1233 @@
+{
+  "chapter_name": "반복제어문 3",
+  "problems": [
+    {
+      "id": 1,
+      "title": "break 기본",
+      "description": "1부터 10까지 출력하되, 5를 만나면 break로 중단하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1\n2\n3\n4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "continue 기본",
+      "description": "1부터 10까지 출력하되, 5는 건너뛰고 출력하시오. (continue 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1\n2\n3\n4\n6\n7\n8\n9\n10"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "홀수만 출력 (continue)",
+      "description": "1부터 20까지의 수 중 홀수만 출력하시오. (continue 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1\n3\n5\n7\n9\n11\n13\n15\n17\n19"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "첫 번째 짝수 찾기",
+      "description": "리스트 [1, 3, 5, 8, 9, 10]에서 첫 번째 짝수를 찾아 출력하시오. (break 사용)",
+      "default_code": "lst = [1, 3, 5, 8, 9, 10]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "8"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "입력받은 수까지 합계",
+      "description": "정수를 입력받아, 1부터 그 수까지의 합을 구하되, 합이 100을 넘으면 중단하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "20",
+          "output": "105"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "3의 배수 제외",
+      "description": "1부터 10까지 출력하되, 3의 배수는 제외하시오. (continue 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1\n2\n4\n5\n7\n8\n10"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "중첩 반복문 break",
+      "description": "중첩 반복문에서 외부 루프가 3일 때 break하여 중단하시오. (1 1, 1 2, 2 1, 2 2 출력)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1 1\n1 2\n2 1\n2 2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "소수 찾기",
+      "description": "입력받은 정수가 소수인지 판별하시오. 소수이면 'prime', 아니면 'not prime'을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "7",
+          "output": "prime"
+        },
+        {
+          "input": "10",
+          "output": "not prime"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "입력 검증",
+      "description": "정수를 입력받되, 0보다 큰 수가 입력될 때까지 반복하시오. (while True, break 사용)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "-5\n-3\n5",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "특정 값 찾기",
+      "description": "리스트 [1, 5, 3, 9, 2]에서 9를 찾아 그 인덱스를 출력하시오. (break 사용)",
+      "default_code": "lst = [1, 5, 3, 9, 2]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "3"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "합이 50 넘으면 중단",
+      "description": "1부터 시작하여 합계를 구하되, 합이 50을 넘으면 중단하고 그 합을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "55"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "입력받은 수의 약수 (break 없이)",
+      "description": "정수를 입력받아, 그 수의 약수를 모두 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "12",
+          "output": "1\n2\n3\n4\n6\n12"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "continue로 특정 값 건너뛰기",
+      "description": "리스트 [1, 2, 3, 4, 5]에서 3을 건너뛰고 출력하시오.",
+      "default_code": "lst = [1, 2, 3, 4, 5]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1\n2\n4\n5"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "입력받은 수까지 짝수 합",
+      "description": "정수 n을 입력받아, 1부터 n까지의 짝수들의 합을 구하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "10",
+          "output": "30"
+        },
+        {
+          "input": "5",
+          "output": "6"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "중첩 반복문 continue",
+      "description": "중첩 반복문에서 내부 루프가 2일 때 continue하여 건너뛰시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1 1\n1 3\n2 1\n2 3"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "입력 검증 (양수만)",
+      "description": "정수를 입력받되, 양수가 입력될 때까지 반복하시오. 양수를 받으면 그 값을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "-1\n0\n5",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "리스트에서 특정 값 제외",
+      "description": "리스트 [1, 2, 3, 2, 4, 2, 5]에서 2를 제외하고 출력하시오.",
+      "default_code": "lst = [1, 2, 3, 2, 4, 2, 5]\n# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "1\n3\n4\n5"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "입력받은 수의 배수 찾기",
+      "description": "1부터 20까지의 수 중 입력받은 정수의 배수만 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "3",
+          "output": "3\n6\n9\n12\n15\n18"
+        },
+        {
+          "input": "5",
+          "output": "5\n10\n15\n20"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "합이 목표값 도달",
+      "description": "1부터 시작하여 합계를 구하되, 합이 100을 넘지 않는 최대 합을 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": "91"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "입력받은 수까지 소수 개수",
+      "description": "정수 n을 입력받아, 2부터 n까지의 소수의 개수를 구하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "10",
+          "output": "4"
+        },
+        {
+          "input": "20",
+          "output": "8"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "중첩 반복문 break (라벨 없이)",
+      "description": "중첩 반복문에서 특정 조건에서 모든 루프를 빠져나오시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "입력받은 수의 팩토리얼",
+      "description": "정수 n을 입력받아, n!을 계산하여 출력하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "5",
+          "output": "120"
+        },
+        {
+          "input": "4",
+          "output": "24"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "입력받은 수까지 완전수 찾기",
+      "description": "정수 n을 입력받아, n 이하의 완전수를 모두 출력하시오. (완전수: 자신을 제외한 약수의 합이 자신과 같은 수)",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "30",
+          "output": "6\n28"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "입력받은 수의 자릿수 합",
+      "description": "정수를 입력받아, 각 자릿수의 합을 구하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "123",
+          "output": "6"
+        },
+        {
+          "input": "456",
+          "output": "15"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "종합 문제",
+      "description": "정수 n을 입력받아, 1부터 n까지의 수 중 3의 배수이거나 5의 배수인 수들의 합을 구하시오.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "10",
+          "output": "33"
+        },
+        {
+          "input": "20",
+          "output": "98"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "반복제어문 3 문제 26",
+      "description": "반복제어문 3 단원의 26번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "반복제어문 3 문제 27",
+      "description": "반복제어문 3 단원의 27번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "반복제어문 3 문제 28",
+      "description": "반복제어문 3 단원의 28번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "반복제어문 3 문제 29",
+      "description": "반복제어문 3 단원의 29번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "반복제어문 3 문제 30",
+      "description": "반복제어문 3 단원의 30번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "반복제어문 3 문제 31",
+      "description": "반복제어문 3 단원의 31번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "반복제어문 3 문제 32",
+      "description": "반복제어문 3 단원의 32번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "반복제어문 3 문제 33",
+      "description": "반복제어문 3 단원의 33번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "반복제어문 3 문제 34",
+      "description": "반복제어문 3 단원의 34번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "반복제어문 3 문제 35",
+      "description": "반복제어문 3 단원의 35번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "반복제어문 3 문제 36",
+      "description": "반복제어문 3 단원의 36번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "반복제어문 3 문제 37",
+      "description": "반복제어문 3 단원의 37번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "반복제어문 3 문제 38",
+      "description": "반복제어문 3 단원의 38번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "반복제어문 3 문제 39",
+      "description": "반복제어문 3 단원의 39번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "반복제어문 3 문제 40",
+      "description": "반복제어문 3 단원의 40번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "반복제어문 3 문제 41",
+      "description": "반복제어문 3 단원의 41번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "반복제어문 3 문제 42",
+      "description": "반복제어문 3 단원의 42번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "반복제어문 3 문제 43",
+      "description": "반복제어문 3 단원의 43번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "반복제어문 3 문제 44",
+      "description": "반복제어문 3 단원의 44번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "반복제어문 3 문제 45",
+      "description": "반복제어문 3 단원의 45번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "반복제어문 3 문제 46",
+      "description": "반복제어문 3 단원의 46번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "반복제어문 3 문제 47",
+      "description": "반복제어문 3 단원의 47번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "반복제어문 3 문제 48",
+      "description": "반복제어문 3 단원의 48번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "반복제어문 3 문제 49",
+      "description": "반복제어문 3 단원의 49번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "반복제어문 3 문제 50",
+      "description": "반복제어문 3 단원의 50번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "반복제어문 3 문제 51",
+      "description": "반복제어문 3 단원의 51번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "반복제어문 3 문제 52",
+      "description": "반복제어문 3 단원의 52번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "반복제어문 3 문제 53",
+      "description": "반복제어문 3 단원의 53번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "반복제어문 3 문제 54",
+      "description": "반복제어문 3 단원의 54번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "반복제어문 3 문제 55",
+      "description": "반복제어문 3 단원의 55번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "반복제어문 3 문제 56",
+      "description": "반복제어문 3 단원의 56번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "반복제어문 3 문제 57",
+      "description": "반복제어문 3 단원의 57번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "반복제어문 3 문제 58",
+      "description": "반복제어문 3 단원의 58번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "반복제어문 3 문제 59",
+      "description": "반복제어문 3 단원의 59번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "반복제어문 3 문제 60",
+      "description": "반복제어문 3 단원의 60번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "반복제어문 3 문제 61",
+      "description": "반복제어문 3 단원의 61번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "반복제어문 3 문제 62",
+      "description": "반복제어문 3 단원의 62번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "반복제어문 3 문제 63",
+      "description": "반복제어문 3 단원의 63번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "반복제어문 3 문제 64",
+      "description": "반복제어문 3 단원의 64번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "반복제어문 3 문제 65",
+      "description": "반복제어문 3 단원의 65번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "반복제어문 3 문제 66",
+      "description": "반복제어문 3 단원의 66번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "반복제어문 3 문제 67",
+      "description": "반복제어문 3 단원의 67번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "반복제어문 3 문제 68",
+      "description": "반복제어문 3 단원의 68번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "반복제어문 3 문제 69",
+      "description": "반복제어문 3 단원의 69번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "반복제어문 3 문제 70",
+      "description": "반복제어문 3 단원의 70번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "반복제어문 3 문제 71",
+      "description": "반복제어문 3 단원의 71번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "반복제어문 3 문제 72",
+      "description": "반복제어문 3 단원의 72번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "반복제어문 3 문제 73",
+      "description": "반복제어문 3 단원의 73번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "반복제어문 3 문제 74",
+      "description": "반복제어문 3 단원의 74번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "반복제어문 3 문제 75",
+      "description": "반복제어문 3 단원의 75번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "반복제어문 3 문제 76",
+      "description": "반복제어문 3 단원의 76번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "반복제어문 3 문제 77",
+      "description": "반복제어문 3 단원의 77번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "반복제어문 3 문제 78",
+      "description": "반복제어문 3 단원의 78번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "반복제어문 3 문제 79",
+      "description": "반복제어문 3 단원의 79번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "반복제어문 3 문제 80",
+      "description": "반복제어문 3 단원의 80번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "반복제어문 3 문제 81",
+      "description": "반복제어문 3 단원의 81번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "반복제어문 3 문제 82",
+      "description": "반복제어문 3 단원의 82번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "반복제어문 3 문제 83",
+      "description": "반복제어문 3 단원의 83번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "반복제어문 3 문제 84",
+      "description": "반복제어문 3 단원의 84번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "반복제어문 3 문제 85",
+      "description": "반복제어문 3 단원의 85번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "반복제어문 3 문제 86",
+      "description": "반복제어문 3 단원의 86번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "반복제어문 3 문제 87",
+      "description": "반복제어문 3 단원의 87번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "반복제어문 3 문제 88",
+      "description": "반복제어문 3 단원의 88번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "반복제어문 3 문제 89",
+      "description": "반복제어문 3 단원의 89번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "반복제어문 3 문제 90",
+      "description": "반복제어문 3 단원의 90번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "반복제어문 3 문제 91",
+      "description": "반복제어문 3 단원의 91번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "반복제어문 3 문제 92",
+      "description": "반복제어문 3 단원의 92번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "반복제어문 3 문제 93",
+      "description": "반복제어문 3 단원의 93번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "반복제어문 3 문제 94",
+      "description": "반복제어문 3 단원의 94번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "반복제어문 3 문제 95",
+      "description": "반복제어문 3 단원의 95번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "반복제어문 3 문제 96",
+      "description": "반복제어문 3 단원의 96번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "반복제어문 3 문제 97",
+      "description": "반복제어문 3 단원의 97번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "반복제어문 3 문제 98",
+      "description": "반복제어문 3 단원의 98번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "반복제어문 3 문제 99",
+      "description": "반복제어문 3 단원의 99번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "반복제어문 3 문제 100",
+      "description": "반복제어문 3 단원의 100번 문제입니다. 이 문제는 Gemini API를 사용하여 생성해야 합니다.",
+      "default_code": "# 여기에 코드를 작성하세요\n",
+      "test_cases": [
+        {
+          "input": "",
+          "output": ""
+        }
+      ]
+    }
+  ]
+}
